@@ -1,3 +1,5 @@
+import { Home } from '@/components/common/home'
+
 export default function Page() {
-	return <div className=''>Home page</div>
+	return <Home />
 }
