@@ -5,15 +5,15 @@ interface HomeCarouselData {
 
 export const homeCarouselData: HomeCarouselData[] = [
 	{
-		img: '/slider-img1.webp',
+		img: '/home/slider-img1.webp',
 		link: ''
 	},
 	{
-		img: '/slider-img2.webp',
+		img: '/home/slider-img2.webp',
 		link: ''
 	},
 	{
-		img: '/slider-img3.webp',
+		img: '/home/slider-img3.webp',
 		link: ''
 	}
 ]

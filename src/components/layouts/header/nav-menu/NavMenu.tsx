@@ -14,7 +14,7 @@ export const NavMenu = ({ className }: Props) => {
 				<span className='block w-full text-center'>Каталог</span>
 			</div>
 
-			<div className='absolute top-full left-0 w-full overflow-hidden bg-green-500 p-2 text-white opacity-0 transition-all duration-500 group-hover:opacity-100'>
+			<div className='absolute top-full left-0 z-10 w-full overflow-hidden bg-green-500 p-2 text-white opacity-0 transition-all duration-500 group-hover:opacity-100'>
 				<ul className='flex flex-col gap-2'>
 					<li>Первый</li>
 					<li>Второй</li>

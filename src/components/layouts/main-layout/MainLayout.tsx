@@ -5,9 +5,9 @@ import { Header } from '../header'
 
 export const MainLayout = ({ children }: PropsWithChildren) => {
 	return (
-		<div>
+		<div className='flex min-h-full flex-col'>
 			<Header />
-			<main>{children}</main>
+			<main className='flex-1'>{children}</main>
 			<Footer />
 		</div>
 	)

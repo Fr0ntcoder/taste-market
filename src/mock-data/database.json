@@ -1,0 +1,59 @@
+{
+	"products": [
+		{
+			"id": 1,
+			"img": "/products/img-1.jpeg",
+			"title": "Блинчики с мясом",
+			"description": "Г/Ц Блинчики с мясом вес, Россия",
+			"price": 89.0,
+			"discount": 20,
+			"rating": 4.2,
+			"categories": ["actions", "food"],
+			"weight": "400 г"
+		},
+		{
+			"id": 2,
+			"img": "/products/img-2.jpeg",
+			"title": "Молоко Простоквашино",
+			"description": "Молоко пастеризованное цельное",
+			"price": 89.0,
+			"discount": 15,
+			"rating": 4.5,
+			"categories": ["actions", "dairy"],
+			"volume": "1 л"
+		},
+		{
+			"id": 3,
+			"img": "/products/img-3.jpeg",
+			"title": "Колбаса Сальчичон",
+			"description": "Колбаса сырокопченая премиум класса",
+			"price": 350.0,
+			"discount": 25,
+			"rating": 4.8,
+			"categories": ["actions", "meat"],
+			"weight": "500 г"
+		},
+		{
+			"id": 4,
+			"img": "/products/img-4.jpeg",
+			"title": "Сосиски Молочные",
+			"description": "Сосиски вареные высшего сорта",
+			"price": 250.0,
+			"discount": 10,
+			"rating": 2.4,
+			"categories": ["actions", "meat"],
+			"weight": "400 г"
+		},
+		{
+			"id": 5,
+			"img": "/products/img-5.jpeg",
+			"title": "Колбаса Сальчинон",
+			"description": "Колбаса сырокопченая",
+			"price": 599.99,
+			"discount": 0,
+			"rating": 3.5,
+			"categories": ["new", "meat"],
+			"weight": "600 г"
+		}
+	]
+}
