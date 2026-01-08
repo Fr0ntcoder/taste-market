@@ -1,4 +1,4 @@
-import { Home } from '@/components/common/home'
+import { Home } from '@/components/features/home'
 
 export default function Page() {
 	return <Home />

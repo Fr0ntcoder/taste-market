@@ -14,6 +14,8 @@
 		"<THIRD_PARTY_MODULES>",
 		"^@/components/ui(.*)$",
 		"^@/components/layouts(.*)$",
+		"^@/components/common(.*)$",
+		"^@/components/features(.*)$",
 		"^@/hooks/(.*)$",
 		"^@/utils/(.*)$",
 		"^@/provider/(.*)$",

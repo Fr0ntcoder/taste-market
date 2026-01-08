@@ -52,11 +52,13 @@ export const ProductCard = ({ item }: Props) => {
 			) : (
 				<span className='text-xl font-bold'>{mainPrice} ₽</span>
 			)}
-			<h4 className='text-lg'>{item.title}</h4>
-			<Rating max={5} value={item.rating} />
-			<Button variant={item.discount > 10 ? 'outline' : 'default'}>
-				В корзину
-			</Button>
+			<div className='mt-auto flex flex-col'>
+				<h4 className='text-lg'>{item.title}</h4>
+				<Rating max={5} value={item.rating} className='mt-2 mb-3.5' />
+				<Button variant={item.discount > 10 ? 'outline' : 'default'}>
+					В корзину
+				</Button>
+			</div>
 		</div>
 	)
 }

@@ -1,8 +1,8 @@
 import { Container } from '@/components/ui/container'
 
-import database from '@/mock-data/database.json'
+import { ProductsBlock } from '@/components/common/products/products-block'
 
-import { ProductsBlock } from '../products/products-block'
+import database from '@/mock-data/database.json'
 
 import { HomeCarousel } from './home-carousel'
 
@@ -13,6 +13,12 @@ export const Home = () => {
 	const newProducts = database.products.filter(item =>
 		item.categories.includes('new')
 	)
+	const purchaseProducts = database.users[0].purchases
+		.map(user => {
+			return database.products.find(product => product.id === user.id)
+		})
+		.filter(item => item !== undefined)
+
 	return (
 		<div className='flex flex-col gap-12.5'>
 			<HomeCarousel />
@@ -28,6 +34,12 @@ export const Home = () => {
 					text='Все новинки'
 					link=''
 					items={newProducts}
+				/>
+				<ProductsBlock
+					title='Покупали раньше'
+					text='Все покупки'
+					link=''
+					items={purchaseProducts}
 				/>
 			</Container>
 		</div>
