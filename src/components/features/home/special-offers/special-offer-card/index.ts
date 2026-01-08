@@ -1,0 +1,1 @@
+export { SpecialOfferCard } from './SpecialOfferCard'

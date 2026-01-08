@@ -5,6 +5,7 @@ import { ProductsBlock } from '@/components/common/products/products-block'
 import database from '@/mock-data/database.json'
 
 import { HomeCarousel } from './home-carousel'
+import { SpecialOffers } from './special-offers'
 
 export const Home = () => {
 	const products = database.products.filter(item =>
@@ -41,6 +42,7 @@ export const Home = () => {
 					link=''
 					items={purchaseProducts}
 				/>
+				<SpecialOffers />
 			</Container>
 		</div>
 	)
