@@ -21,7 +21,7 @@ export const ProductsBlock = ({ title, text, link, items }: Props) => {
 				</Link>
 			</div>
 			<div className='grid grid-cols-4 gap-5'>
-				{items.map(item => (
+				{items.slice(0, 4).map(item => (
 					<ProductCard item={item} key={item.id} />
 				))}
 			</div>

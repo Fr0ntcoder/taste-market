@@ -1,0 +1,1 @@
+export { PartialStar } from './PartialStar'

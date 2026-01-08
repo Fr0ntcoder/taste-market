@@ -1,5 +1,8 @@
+'use client'
+
 import { Heart } from 'lucide-react'
 import Image from 'next/image'
+import { useState } from 'react'
 
 import { Button } from '@/components/ui/button'
 import { Rating } from '@/components/ui/rating'
@@ -12,6 +15,7 @@ interface Props {
 }
 
 export const ProductCard = ({ item }: Props) => {
+	const [rating, setRating] = useState<number>(0)
 	const calculateDiscountPrice = formatPrice(
 		calculateDiscount(item.price, item.discount)
 	)
@@ -29,21 +33,27 @@ export const ProductCard = ({ item }: Props) => {
 					className='bg-top-left object-contain'
 				/>
 			</div>
-			<div className='relative flex justify-between gap-2 align-top'>
-				<span className='bg-primary absolute -top-8 left-2.5 flex h-8 w-10 items-center justify-center rounded p-1 text-sm font-bold text-white'>
-					-{item.discount}%
-				</span>
-				<div className='flex flex-col'>
-					<span className='text-xl font-bold'>{calculateDiscountPrice} ₽</span>
-					<span className='text-gray-400'>с картой</span>
-				</div>
-				<div className='flex flex-col'>
-					<span className='block text-right text-lg font-bold'>
-						{mainPrice} ₽
+			{item.discount ? (
+				<div className='relative flex justify-between gap-2 align-top'>
+					<span className='bg-primary absolute -top-8 left-2.5 flex h-8 w-10 items-center justify-center rounded p-1 text-sm font-bold text-white'>
+						-{item.discount}%
 					</span>
-					<span className='text-gray-400'>обычная</span>
+					<div className='flex flex-col'>
+						<span className='text-xl font-bold'>
+							{calculateDiscountPrice} ₽
+						</span>
+						<span className='text-gray-400'>с картой</span>
+					</div>
+					<div className='flex flex-col'>
+						<span className='block text-right text-lg font-bold'>
+							{mainPrice} ₽
+						</span>
+						<span className='text-gray-400'>обычная</span>
+					</div>
 				</div>
-			</div>
+			) : (
+				<span className='text-xl font-bold'>{mainPrice} ₽</span>
+			)}
 			<h4 className='text-lg'>{item.title}</h4>
 			<Rating max={5} value={item.rating} />
 			<Button variant={item.discount > 10 ? 'outline' : 'default'}>
