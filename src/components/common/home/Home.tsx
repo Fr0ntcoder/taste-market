@@ -10,15 +10,24 @@ export const Home = () => {
 	const products = database.products.filter(item =>
 		item.categories.includes('actions')
 	)
+	const newProducts = database.products.filter(item =>
+		item.categories.includes('new')
+	)
 	return (
-		<div className='flex flex-col gap-6'>
+		<div className='flex flex-col gap-12.5'>
 			<HomeCarousel />
-			<Container>
+			<Container className='flex flex-col gap-12.5'>
 				<ProductsBlock
 					title='Акции'
 					text='Все акции'
 					link=''
 					items={products}
+				/>
+				<ProductsBlock
+					title='Новинки'
+					text='Все новинки'
+					link=''
+					items={newProducts}
 				/>
 			</Container>
 		</div>

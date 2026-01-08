@@ -2,7 +2,6 @@
 
 import { Heart } from 'lucide-react'
 import Image from 'next/image'
-import { useState } from 'react'
 
 import { Button } from '@/components/ui/button'
 import { Rating } from '@/components/ui/rating'
@@ -15,13 +14,12 @@ interface Props {
 }
 
 export const ProductCard = ({ item }: Props) => {
-	const [rating, setRating] = useState<number>(0)
 	const calculateDiscountPrice = formatPrice(
 		calculateDiscount(item.price, item.discount)
 	)
 	const mainPrice = formatPrice(item.price)
 	return (
-		<div className='relative flex flex-col gap-2 rounded-lg p-2 shadow'>
+		<div className='relative flex flex-col gap-2 rounded-lg p-2 shadow transition-transform duration-300 hover:scale-105'>
 			<div className='absolute top-3 right-3 z-20 flex h-8 w-8 cursor-pointer items-center justify-center rounded bg-gray-100'>
 				<Heart className='text-gray-300' />
 			</div>

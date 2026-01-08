@@ -2,7 +2,7 @@
 	"products": [
 		{
 			"id": 1,
-			"img": "/products/img-1.jpeg",
+			"img": "/products/discount-img-1.jpeg",
 			"title": "Блинчики с мясом",
 			"description": "Г/Ц Блинчики с мясом вес, Россия",
 			"price": 89.0,
@@ -13,7 +13,7 @@
 		},
 		{
 			"id": 2,
-			"img": "/products/img-2.jpeg",
+			"img": "/products/discount-img-2.jpeg",
 			"title": "Молоко Простоквашино",
 			"description": "Молоко пастеризованное цельное",
 			"price": 89.0,
@@ -24,7 +24,7 @@
 		},
 		{
 			"id": 3,
-			"img": "/products/img-3.jpeg",
+			"img": "/products/discount-img-3.jpeg",
 			"title": "Колбаса Сальчичон",
 			"description": "Колбаса сырокопченая премиум класса",
 			"price": 350.0,
@@ -35,7 +35,7 @@
 		},
 		{
 			"id": 4,
-			"img": "/products/img-4.jpeg",
+			"img": "/products/discount-img-4.jpeg",
 			"title": "Сосиски Молочные",
 			"description": "Сосиски вареные высшего сорта",
 			"price": 250.0,
@@ -46,7 +46,7 @@
 		},
 		{
 			"id": 5,
-			"img": "/products/img-5.jpeg",
+			"img": "/products/discount-img-5.jpeg",
 			"title": "Колбаса Сальчинон",
 			"description": "Колбаса сырокопченая",
 			"price": 599.99,
@@ -54,6 +54,50 @@
 			"rating": 3.5,
 			"categories": ["new", "meat"],
 			"weight": "600 г"
+		},
+		{
+			"id": 6,
+			"img": "/products/new-img-1.jpeg",
+			"title": "Сыр Ламбер",
+			"description": "Сыр Ламбер Маасдам полутвердый 45%, 180г",
+			"price": 134.99,
+			"discount": 0,
+			"rating": 5,
+			"categories": ["dairy", "new"],
+			"weight": "180 г"
+		},
+		{
+			"id": 7,
+			"img": "/products/new-img-2.jpeg",
+			"title": "Пельмени Сибирская коллекция",
+			"description": "Пельмени Сибирская коллекция, категория В, 700г",
+			"price": 359.99,
+			"discount": 0,
+			"rating": 5,
+			"categories": ["meat", "new"],
+			"weight": "700 г"
+		},
+		{
+			"id": 8,
+			"img": "/products/new-img-3.jpeg",
+			"title": "Сырок творожный",
+			"description": "Сырок творожный Родимая Сторонка 8% с изюмом 100г, категория В, 700г",
+			"price": 64.99,
+			"discount": 0,
+			"rating": 5,
+			"categories": ["dairy", "new"],
+			"weight": "100 г"
+		},
+		{
+			"id": 9,
+			"img": "/products/new-img-4.jpeg",
+			"title": "Печенье Юбилейное",
+			"description": "Печенье витаминизированное Юбилейное традиционное 134 г - отзывы покупателей на маркетплейсе Мегамаркет",
+			"price": 55,
+			"discount": 0,
+			"rating": 5,
+			"categories": ["bread", "new"],
+			"weight": "134 г"
 		}
 	]
 }
