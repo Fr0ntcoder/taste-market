@@ -11,7 +11,12 @@ interface Props {
 export const Logo = ({ className, priority = false }: Props) => {
 	return (
 		<Link href='/' className={cn('relative h-20 w-20', className)}>
-			<Image src='/logo.jpg' fill={true} alt='логотип' />
+			<Image
+				src='/logo.jpg'
+				fill={true}
+				alt='логотип'
+				sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
+			/>
 		</Link>
 	)
 }

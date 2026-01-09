@@ -1,0 +1,1 @@
+export { HomeMapsYandex } from './HomeMapsYandex'

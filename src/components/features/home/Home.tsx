@@ -5,6 +5,7 @@ import { ProductsBlock } from '@/components/common/products/products-block'
 import database from '@/mock-data/database.json'
 
 import { HomeCarousel } from './home-carousel'
+import { HomeMaps } from './home-maps'
 import { SpecialOffers } from './special-offers'
 
 export const Home = () => {
@@ -43,6 +44,7 @@ export const Home = () => {
 					items={purchaseProducts}
 				/>
 				<SpecialOffers />
+				<HomeMaps />
 			</Container>
 		</div>
 	)

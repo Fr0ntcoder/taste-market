@@ -15,7 +15,7 @@ export const ProductsBlock = ({ title, text, link, items }: Props) => {
 	return (
 		<div>
 			<div className='mb-7.5 flex items-center justify-between'>
-				<h3 className='text-4xl font-bold'>{title}</h3>
+				<h3 className='text-3xl font-bold'>{title}</h3>
 				<Link href={link} className='flex items-center gap-3'>
 					{text} <ChevronRight size={16} />
 				</Link>
