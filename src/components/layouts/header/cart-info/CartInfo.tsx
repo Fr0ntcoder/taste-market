@@ -8,7 +8,7 @@ export const CartInfo = () => {
 			{cartInfoData.map(item => (
 				<li key={item.name}>
 					<Link
-						href={item.link}
+						href={item.href}
 						className='flex flex-col items-center justify-center'
 					>
 						<item.icon className='mb-1' />

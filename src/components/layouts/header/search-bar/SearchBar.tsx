@@ -1,6 +1,6 @@
 import { Search } from 'lucide-react'
 
-import { Input } from '@/components/ui/input'
+import { Input } from '@/components/ui'
 
 import { cn } from '@/lib/utils'
 
@@ -11,13 +11,13 @@ export const SearchBar = ({ className }: Props) => {
 	return (
 		<div
 			className={cn(
-				'flex min-h-10 w-93.75 items-center rounded border border-green-500 px-2',
+				'flex min-h-10 w-93.75 items-center rounded border px-2',
 				className
 			)}
 		>
 			<Input
 				placeholder='Поиск...'
-				className='border-0 p-0 text-base shadow-none'
+				className='placeholder:text-input border-0 p-0 text-base shadow-none'
 			/>
 			<button className='cursor-pointer'>
 				<Search />

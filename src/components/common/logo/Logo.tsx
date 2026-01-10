@@ -10,7 +10,7 @@ interface Props {
 
 export const Logo = ({ className, priority = false }: Props) => {
 	return (
-		<Link href='/' className={cn('relative h-20 w-20', className)}>
+		<Link href='/' className={cn('relative inline-block h-20 w-20', className)}>
 			<Image
 				src='/logo.jpg'
 				fill={true}

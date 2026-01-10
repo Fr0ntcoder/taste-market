@@ -1,14 +1,13 @@
 import Image from 'next/image'
 
 import { cn } from '@/lib/utils'
-
-import { ISpecialOffer } from '../special-offer.data'
+import { ISpecialOffer } from '@/types'
 
 interface Props {
 	item: ISpecialOffer
 }
 
-export const SpecialOfferCard = ({ item }: Props) => {
+export const OfferCard = ({ item }: Props) => {
 	return (
 		<div className={cn('grid h-60 grid-cols-2 rounded shadow', item.color)}>
 			<div className='px-5 pt-20'>

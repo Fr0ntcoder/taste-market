@@ -35,7 +35,7 @@ export const HomeMapsYandex = () => {
 						<TabsTrigger
 							value={item.id}
 							key={item.id}
-							className='data-[state=active]:bg-primary p-5 text-lg data-[state=active]:text-white'
+							className='data-[state=active]:bg-primary data-[state=active]:text-primary-foreground p-5 text-lg'
 						>
 							{item.city}
 						</TabsTrigger>

@@ -1,19 +1,19 @@
 interface HomeCarouselData {
 	img: string
-	link: string
+	href: string
 }
 
 export const homeCarouselData: HomeCarouselData[] = [
 	{
 		img: '/home/slider-img1.webp',
-		link: ''
+		href: ''
 	},
 	{
 		img: '/home/slider-img2.webp',
-		link: ''
+		href: ''
 	},
 	{
 		img: '/home/slider-img3.webp',
-		link: ''
+		href: ''
 	}
 ]

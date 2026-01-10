@@ -25,7 +25,7 @@ export const HomeCarousel = () => {
 			<CarouselContent>
 				{homeCarouselData.map((item, i) => (
 					<CarouselItem key={i} className='basis-1/2'>
-						<Link href={item.link} className='relative block min-h-95'>
+						<Link href={item.href} className='relative block min-h-95'>
 							<Image
 								src={item.img}
 								fill

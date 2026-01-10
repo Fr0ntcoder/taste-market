@@ -1,9 +1,11 @@
 import { Container } from '@/components/ui/container'
 
-import { ProductsBlock } from '@/components/common/products/products-block'
+import { ProductsBlock } from '@/components/common/products'
 
+import articleDatabase from '@/mock-data/articleDatabase.json'
 import database from '@/mock-data/database.json'
 
+import { HomeArticles } from './home-articles'
 import { HomeCarousel } from './home-carousel'
 import { HomeMaps } from './home-maps'
 import { SpecialOffers } from './special-offers'
@@ -21,6 +23,8 @@ export const Home = () => {
 		})
 		.filter(item => item !== undefined)
 
+	console.log(new Date())
+	const articles = articleDatabase
 	return (
 		<div className='flex flex-col gap-12.5'>
 			<HomeCarousel />
@@ -28,23 +32,24 @@ export const Home = () => {
 				<ProductsBlock
 					title='Акции'
 					text='Все акции'
-					link=''
+					href=''
 					items={products}
 				/>
 				<ProductsBlock
 					title='Новинки'
 					text='Все новинки'
-					link=''
+					href=''
 					items={newProducts}
 				/>
 				<ProductsBlock
 					title='Покупали раньше'
 					text='Все покупки'
-					link=''
+					href=''
 					items={purchaseProducts}
 				/>
 				<SpecialOffers />
 				<HomeMaps />
+				<HomeArticles items={articles} />
 			</Container>
 		</div>
 	)

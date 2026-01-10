@@ -3,23 +3,23 @@ import { Box, Heart, LucideIcon, ShoppingCart } from 'lucide-react'
 interface ICartInfoItem {
 	name: string
 	icon: LucideIcon
-	link: string
+	href: string
 }
 
 export const cartInfoData: ICartInfoItem[] = [
 	{
 		name: 'Избранное',
 		icon: Heart,
-		link: ''
+		href: ''
 	},
 	{
 		name: 'Заказы',
 		icon: Box,
-		link: ''
+		href: ''
 	},
 	{
 		name: 'Корзина',
 		icon: ShoppingCart,
-		link: ''
+		href: ''
 	}
 ]

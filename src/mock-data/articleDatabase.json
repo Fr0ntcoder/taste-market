@@ -1,0 +1,26 @@
+[
+	{
+		"id": 1,
+		"title": "Чистый код на React: практики, которые делают проект поддерживаемым",
+		"description": "В работе над React-проектами код почти всегда живёт дольше, чем кажется на старте: требования меняются, команда растёт, появляются новые сценарии и интеграции.",
+		"text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum illo quidem ipsam, enim quisquam ea eius doloribus minima suscipit, atque tempore ad! Asperiores rerum laudantium placeat totam velit, exercitationem delectus! Neque quas id sequi perferendis optio cumque? Consequatur voluptas fugit ipsa magni iusto ex neque minus nemo ipsam, obcaecati eligendi, maiores, in sapiente ab sint sunt recusandae libero nam ducimus.Quibusdam repudiandae ipsam possimus voluptate dolores atque. Illum, beatae assumenda corporis alias tempora quas ratione cum aperiam voluptatibus blanditiis pariatur vero eum, eos minima et exercitationem enim?",
+		"img": "/articles/article-img1.jpg",
+		"createdAt": "2025-11-15"
+	},
+	{
+		"id": 2,
+		"title": "Практическая оптимизация React: ререндеры, Context, списки, INP и code splitting",
+		"description": "Оптимизация в React почти всегда сводится к двум факторам: объёму работы, которую выполняет JavaScript, и частоте (а также «стоимости») перерисовок компонентов.",
+		"text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum illo quidem ipsam, enim quisquam ea eius doloribus minima suscipit, atque tempore ad! Asperiores rerum laudantium placeat totam velit, exercitationem delectus! Neque quas id sequi perferendis optio cumque? Consequatur voluptas fugit ipsa magni iusto ex neque minus nemo ipsam, obcaecati eligendi, maiores, in sapiente ab sint sunt recusandae libero nam ducimus.Quibusdam repudiandae ipsam possimus voluptate dolores atque. Illum, beatae assumenda corporis alias tempora quas ratione cum aperiam voluptatibus blanditiis pariatur vero eum, eos minima et exercitationem enim?",
+		"img": "/articles/article-img2.jpg",
+		"createdAt": "2025-08-08"
+	},
+	{
+		"id": 3,
+		"title": "Full-stack разработка в 2025: Какой стек технологий выбрать?",
+		"description": "Если вы хотите узнать, какие связки технологий наиболее популярны в 2025 и что стоит доучить, чтобы стать full-stack разработчиком, эта статья вам поможет!",
+		"text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum illo quidem ipsam, enim quisquam ea eius doloribus minima suscipit, atque tempore ad! Asperiores rerum laudantium placeat totam velit, exercitationem delectus! Neque quas id sequi perferendis optio cumque? Consequatur voluptas fugit ipsa magni iusto ex neque minus nemo ipsam, obcaecati eligendi, maiores, in sapiente ab sint sunt recusandae libero nam ducimus.Quibusdam repudiandae ipsam possimus voluptate dolores atque. Illum, beatae assumenda corporis alias tempora quas ratione cum aperiam voluptatibus blanditiis pariatur vero eum, eos minima et exercitationem enim?",
+		"img": "/articles/article-img3.jpg",
+		"createdAt": "2025-07-10"
+	}
+]

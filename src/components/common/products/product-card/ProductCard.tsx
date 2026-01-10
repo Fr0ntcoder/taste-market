@@ -3,10 +3,9 @@
 import { Heart } from 'lucide-react'
 import Image from 'next/image'
 
-import { Button } from '@/components/ui/button'
-import { Rating } from '@/components/ui/rating'
+import { Button, Rating } from '@/components/ui'
 
-import { IProduct } from '@/types/products'
+import { IProduct } from '@/types'
 import { calculateDiscount, formatPrice } from '@/utils'
 
 interface Props {
@@ -20,9 +19,7 @@ export const ProductCard = ({ item }: Props) => {
 	const mainPrice = formatPrice(item.price)
 	return (
 		<div className='relative flex flex-col gap-2 rounded-lg p-2 shadow transition-transform duration-300 hover:scale-105'>
-			<div className='absolute top-3 right-3 z-20 flex h-8 w-8 cursor-pointer items-center justify-center rounded bg-gray-100'>
-				<Heart className='text-gray-300' />
-			</div>
+			<Heart className='text-primary absolute top-3 right-3 z-20 flex h-8 w-8 cursor-pointer items-center justify-center rounded' />
 			<div className='relative mx-auto h-45 w-60'>
 				<Image
 					src={item.img}
@@ -34,20 +31,20 @@ export const ProductCard = ({ item }: Props) => {
 			</div>
 			{item.discount ? (
 				<div className='relative flex justify-between gap-2 align-top'>
-					<span className='bg-primary absolute -top-8 left-2.5 flex h-8 w-10 items-center justify-center rounded p-1 text-sm font-bold text-white'>
+					<span className='bg-primary text-primary-foreground absolute -top-8 left-2.5 flex h-8 w-10 items-center justify-center rounded p-1 text-sm font-bold'>
 						-{item.discount}%
 					</span>
 					<div className='flex flex-col'>
 						<span className='text-xl font-bold'>
 							{calculateDiscountPrice} ₽
 						</span>
-						<span className='text-gray-400'>с картой</span>
+						<span className='text-secondary'>с картой</span>
 					</div>
 					<div className='flex flex-col'>
 						<span className='block text-right text-lg font-bold'>
 							{mainPrice} ₽
 						</span>
-						<span className='text-gray-400'>обычная</span>
+						<span className='text-secondary'>обычная</span>
 					</div>
 				</div>
 			) : (
