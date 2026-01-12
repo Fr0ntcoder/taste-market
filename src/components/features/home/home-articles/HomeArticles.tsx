@@ -5,10 +5,20 @@ import { ArticleCard } from '@/components/common/articles'
 
 import { IArticle } from '@/types'
 
-interface Props {
-	items: IArticle[]
-}
-export const HomeArticles = ({ items }: Props) => {
+export const HomeArticles = async () => {
+	let articles: IArticle[] = []
+	const error = null
+
+	try {
+		const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL!}/api/articles`)
+		articles = await res.json()
+	} catch (error) {
+		error = 'Ошибка получения статей'
+		console.log('Ошибка получения статей', error)
+	}
+
+	if (error) return <div>Ошибка получения статей</div>
+
 	return (
 		<div className='flex flex-col gap-7.5'>
 			<div className='flex items-center justify-between'>
@@ -18,8 +28,8 @@ export const HomeArticles = ({ items }: Props) => {
 				</Link>
 			</div>
 			<div className='grid grid-cols-3 gap-5'>
-				{items.map(article => (
-					<ArticleCard item={article} key={article.id} />
+				{articles.map(article => (
+					<ArticleCard item={article} key={article._id} />
 				))}
 			</div>
 		</div>

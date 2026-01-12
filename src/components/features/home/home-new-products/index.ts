@@ -1,0 +1,1 @@
+export { HomeNewProducts } from './HomeNewProducts'

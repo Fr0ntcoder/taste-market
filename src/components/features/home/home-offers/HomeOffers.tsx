@@ -1,13 +1,13 @@
 import { OfferCard } from '@/components/common/offers/offer-card'
 
-import { specialOfferData } from './special-offer.data'
+import { homeOfferData } from './home-offer.data'
 
-export const SpecialOffers = () => {
+export const HomeOffers = () => {
 	return (
 		<div>
 			<h3 className='mb-7.5 text-3xl font-bold'>Специальные предложения</h3>
 			<div className='grid grid-cols-2 gap-5'>
-				{specialOfferData.map((offer, i) => (
+				{homeOfferData.map((offer, i) => (
 					<OfferCard item={offer} key={i} />
 				))}
 			</div>

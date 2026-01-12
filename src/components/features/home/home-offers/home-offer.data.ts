@@ -5,7 +5,7 @@ export interface ISpecialOffer {
 	color?: string
 }
 
-export const specialOfferData: ISpecialOffer[] = [
+export const homeOfferData: ISpecialOffer[] = [
 	{
 		title: 'Оформите карту',
 		description: 'И получайте бонусы на все покупки',
