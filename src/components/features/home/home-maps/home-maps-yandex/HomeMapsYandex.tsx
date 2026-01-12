@@ -1,6 +1,6 @@
 'use client'
 
-import { Map, Placemark, YMaps } from '@pbe/react-yandex-maps'
+import { Map, Placemark, YMaps } from '@iminside/react-yandex-maps'
 import { easeInOut, motion } from 'framer-motion'
 import { useMemo, useState } from 'react'
 
