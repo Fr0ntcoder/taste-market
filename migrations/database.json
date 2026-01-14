@@ -1,101 +1,1907 @@
 [
 	{
 		"id": 1,
-		"img": "/products/discount-img-1.jpeg",
+		"img": "/products/img-1.jpeg",
 		"title": "Блинчики с мясом",
 		"description": "Г/Ц Блинчики с мясом вес, Россия",
 		"price": 89.0,
 		"discount": 20,
-		"rating": 4.2,
-		"categories": ["actions", "food"],
-		"weight": "400 г"
+		"rating": {
+			"rate": 4.2,
+			"count": 120
+		},
+		"categories": ["food", "actions", "bread", "meat", "frozen"],
+		"weight": 0.4,
+		"quantity": 100
 	},
 	{
 		"id": 2,
-		"img": "/products/discount-img-2.jpeg",
+		"img": "/products/img-2.jpeg",
 		"title": "Молоко Простоквашино",
 		"description": "Молоко пастеризованное цельное",
 		"price": 89.0,
 		"discount": 15,
-		"rating": 4.5,
-		"categories": ["actions", "dairy"],
-		"volume": "1 л"
+		"rating": {
+			"rate": 4.5,
+			"count": 27
+		},
+		"categories": ["food", "actions", "dairy"],
+		"weight": 1,
+		"quantity": 10
 	},
 	{
 		"id": 3,
-		"img": "/products/discount-img-3.jpeg",
+		"img": "/products/img-3.jpeg",
 		"title": "Колбаса Сальчичон",
 		"description": "Колбаса сырокопченая премиум класса",
 		"price": 350.0,
 		"discount": 25,
-		"rating": 4.8,
-		"categories": ["actions", "meat"],
-		"weight": "500 г"
+		"rating": {
+			"rate": 4.8,
+			"count": 35
+		},
+		"categories": ["food", "actions", "meat"],
+		"weight": 0.5,
+		"quantity": 0
 	},
 	{
 		"id": 4,
-		"img": "/products/discount-img-4.jpeg",
+		"img": "/products/img-4.jpeg",
 		"title": "Сосиски Молочные",
 		"description": "Сосиски вареные высшего сорта",
 		"price": 250.0,
 		"discount": 10,
-		"rating": 2.4,
-		"categories": ["actions", "meat"],
-		"weight": "400 г"
+		"rating": {
+			"rate": 2.4,
+			"count": 75
+		},
+		"categories": ["food", "actions", "meat"],
+		"weight": 0.4,
+		"quantity": 34
 	},
 	{
 		"id": 5,
-		"img": "/products/discount-img-5.jpeg",
+		"img": "/products/img-5.jpeg",
 		"title": "Колбаса Сальчинон",
 		"description": "Колбаса сырокопченая",
 		"price": 599.99,
 		"discount": 0,
-		"rating": 3.5,
-		"categories": ["new", "meat"],
-		"weight": "600 г"
+		"rating": {
+			"rate": 3.5,
+			"count": 6
+		},
+		"categories": ["food", "meat"],
+		"weight": 0.6,
+		"quantity": 0
 	},
 	{
 		"id": 6,
-		"img": "/products/new-img-1.jpeg",
+		"img": "/products/img-6.jpeg",
 		"title": "Сыр Ламбер",
 		"description": "Сыр Ламбер Маасдам полутвердый 45%, 180г",
 		"price": 134.99,
 		"discount": 0,
-		"rating": 5,
-		"categories": ["dairy", "new"],
-		"weight": "180 г"
+		"rating": {
+			"rate": 0,
+			"count": 0
+		},
+		"categories": ["food", "dairy", "new"],
+		"weight": 0.18,
+		"quantity": 18
 	},
 	{
 		"id": 7,
-		"img": "/products/new-img-2.jpeg",
+		"img": "/products/img-7.jpeg",
 		"title": "Пельмени Сибирская коллекция",
 		"description": "Пельмени Сибирская коллекция, категория В, 700г",
-		"price": 359.99,
+		"price": 360,
 		"discount": 0,
-		"rating": 5,
-		"categories": ["meat", "new"],
-		"weight": "700 г"
+		"rating": {
+			"rate": 5,
+			"count": 4
+		},
+		"categories": ["food", "meat", "new", "frozen"],
+		"weight": 0.7,
+		"quantity": 100
 	},
 	{
 		"id": 8,
-		"img": "/products/new-img-3.jpeg",
+		"img": "/products/img-8.jpeg",
 		"title": "Сырок творожный",
 		"description": "Сырок творожный Родимая Сторонка 8% с изюмом 100г, категория В, 700г",
 		"price": 64.99,
 		"discount": 0,
-		"rating": 5,
-		"categories": ["dairy", "new"],
-		"weight": "100 г"
+		"rating": {
+			"rate": 5,
+			"count": 3
+		},
+		"categories": ["food", "dairy", "new"],
+		"weight": 0.1,
+		"quantity": 100
 	},
 	{
 		"id": 9,
-		"img": "/products/new-img-4.jpeg",
+		"img": "/products/img-9.jpeg",
 		"title": "Печенье Юбилейное",
 		"description": "Печенье витаминизированное Юбилейное традиционное 134 г - отзывы покупателей на маркетплейсе Мегамаркет",
 		"price": 55,
 		"discount": 0,
-		"rating": 5,
-		"categories": ["bread", "new"],
-		"weight": "134 г"
+		"rating": {
+			"rate": 5,
+			"count": 2
+		},
+		"categories": ["food", "confectionery", "new"],
+		"weight": 0.134,
+		"quantity": 100
+	},
+	{
+		"id": 10,
+		"img": "/products/img-10.jpeg",
+		"title": "Свинина Тушеная",
+		"description": "Свинина тушеная ГОСТ Сытый боярин 325 г",
+		"price": 160,
+		"discount": 0,
+		"rating": {
+			"rate": 5,
+			"count": 2
+		},
+		"categories": ["food", "meat", "new"],
+		"weight": 0.35,
+		"quantity": 100
+	},
+	{
+		"id": 11,
+		"img": "/products/img-11.jpeg",
+		"title": "Томатный соус",
+		"description": "Соус томатный Помидорка для пасты 350 мл",
+		"price": 137,
+		"discount": 20,
+		"rating": {
+			"rate": 5,
+			"count": 2
+		},
+		"categories": ["food", "actions"],
+		"weight": 0.35,
+		"quantity": 100
+	},
+	{
+		"id": 12,
+		"img": "/products/img-12.jpeg",
+		"title": "Имунеле For kids 1,5%",
+		"description": "Напиток кисломолочный с соком Имунеле For kids 1,5% 100 гр клубничное мороженое БЗМЖ",
+		"price": 36,
+		"discount": 10,
+		"rating": {
+			"rate": 5,
+			"count": 2
+		},
+		"categories": ["food", "kids", "dairy", "healthy", "actions"],
+		"weight": 0.1,
+		"quantity": 17
+	},
+	{
+		"id": 13,
+		"img": "/products/img-13.jpeg",
+		"title": "Напиток молочно-соковый",
+		"description": "Напиток молочно-соковый Мажитэль Party 950г пина колада БЗМЖ",
+		"price": 142,
+		"discount": 0,
+		"rating": {
+			"rate": 5,
+			"count": 2
+		},
+		"categories": ["food", "dairy", "healthy", "new"],
+		"weight": 0.95,
+		"quantity": 13
+	},
+	{
+		"id": 14,
+		"img": "/products/img-14.jpeg",
+		"title": "Индейка 'Индилайт' охлажденная",
+		"description": "Лангет из индейки Индилайт охлажденный 400 г",
+		"price": 270,
+		"discount": 10,
+		"rating": {
+			"rate": 4.8,
+			"count": 67
+		},
+		"categories": ["food", "dairy", "healthy", "actions"],
+		"weight": 0.4,
+		"quantity": 19
+	},
+	{
+		"id": 15,
+		"img": "/products/img-15.jpeg",
+		"title": "Черешня",
+		"description": "Черешня свежая 100 г",
+		"price": 45,
+		"discount": 10,
+		"rating": {
+			"rate": 4.8,
+			"count": 399
+		},
+		"categories": ["food", "fruit", "healthy", "actions"],
+		"weight": 0.1,
+		"quantity": 132
+	},
+	{
+		"id": 16,
+		"img": "/products/img-16.jpeg",
+		"title": "Томаты, помидоры",
+		"description": "Томаты Бычье сердце",
+		"price": 200,
+		"discount": 0,
+		"rating": {
+			"rate": 4.8,
+			"count": 325
+		},
+		"categories": ["food", "fruit", "healthy", "new"],
+		"weight": 1,
+		"quantity": 100
+	},
+	{
+		"id": 17,
+		"img": "/products/img-17.jpeg",
+		"title": "Шашлык",
+		"description": "Шашлык свиной",
+		"price": 320,
+		"discount": 10,
+		"rating": {
+			"rate": 4.4,
+			"count": 325
+		},
+		"categories": ["food", "meat", "actions"],
+		"weight": 1,
+		"quantity": 100
+	},
+	{
+		"id": 18,
+		"img": "/products/img-18.jpeg",
+		"title": "Кукурузные палочки",
+		"description": "Кукурузные палочки в сахарной пудре Ёшки-матрёшки 120 г",
+		"price": 40,
+		"discount": 10,
+		"rating": {
+			"rate": 4.6,
+			"count": 37
+		},
+		"categories": ["food", "actions"],
+		"weight": 0.12,
+		"quantity": 100
+	},
+	{
+		"id": 19,
+		"img": "/products/img-19.jpeg",
+		"title": "Филе индейки",
+		"description": "Филе индейки малое охлажденное Индилайт 500 г",
+		"price": 410,
+		"discount": 0,
+		"rating": {
+			"rate": 4.8,
+			"count": 45
+		},
+		"categories": ["food", "meat"],
+		"weight": 0.5,
+		"quantity": 100
+	},
+	{
+		"id": 20,
+		"img": "/products/img-20.jpeg",
+		"title": "Грудка цыпленка-бройлера",
+		"description": "Грудка цыпленка-бройлера охлажденная Куриная ферма",
+		"price": 300,
+		"discount": 0,
+		"rating": {
+			"rate": 4.9,
+			"count": 29
+		},
+		"categories": ["food", "meat"],
+		"weight": 1,
+		"quantity": 22
+	},
+	{
+		"id": 21,
+		"img": "/products/img-21.jpeg",
+		"title": "Наггетсы куриные",
+		"description": "Наггетсы куриные Семья довольна 300 г",
+		"price": 185,
+		"discount": 0,
+		"rating": {
+			"rate": 4.7,
+			"count": 24
+		},
+		"categories": ["food", "meat", "frozen"],
+		"weight": 1,
+		"quantity": 20
+	},
+	{
+		"id": 22,
+		"img": "/products/img-22.jpeg",
+		"title": "Карбонад свиной охлажденный",
+		"description": "Карбонад свиной охлажденный",
+		"price": 410,
+		"discount": 0,
+		"rating": {
+			"rate": 4.4,
+			"count": 67
+		},
+		"categories": ["food", "meat"],
+		"weight": 1,
+		"quantity": 15
+	},
+	{
+		"id": 23,
+		"img": "/products/img-23.jpeg",
+		"title": "Фарш говяжий охлажденный",
+		"description": "Фарш говяжий охлажденный Black Angus Мираторг 400 г",
+		"price": 290,
+		"discount": 0,
+		"rating": {
+			"rate": 4.9,
+			"count": 65
+		},
+		"categories": ["food", "meat"],
+		"weight": 0.4,
+		"quantity": 23
+	},
+	{
+		"id": 24,
+		"img": "/products/img-24.jpeg",
+		"title": "Сыр Пошехонский",
+		"description": "Сыр Пошехонский 45% Семья довольна 200 г БЗМЖ",
+		"price": 165,
+		"discount": 0,
+		"rating": {
+			"rate": 5.0,
+			"count": 45
+		},
+		"categories": ["food", "dairy"],
+		"weight": 0.2,
+		"quantity": 28
+	},
+	{
+		"id": 25,
+		"img": "/products/img-25.jpeg",
+		"title": "Сметана 20%",
+		"description": "Сметана 20% Домик в деревне 300 гр БЗМЖ",
+		"price": 116,
+		"discount": 0,
+		"rating": {
+			"rate": 5.0,
+			"count": 35
+		},
+		"categories": ["food", "dairy"],
+		"weight": 0.3,
+		"quantity": 44
+	},
+	{
+		"id": 26,
+		"img": "/products/img-26.jpeg",
+		"title": "Творог 5%",
+		"description": "Творог 5% Родные луга 180 г БЗМЖ",
+		"price": 71.5,
+		"discount": 0,
+		"rating": {
+			"rate": 4.0,
+			"count": 19
+		},
+		"categories": ["food", "dairy"],
+		"weight": 0.18,
+		"quantity": 43
+	},
+	{
+		"id": 27,
+		"img": "/products/img-27.jpeg",
+		"title": "Молоко сгущенное",
+		"description": "Молоко сгущенное с сахаром 8,5% Вологодские молочные продукты 270 г БЗМЖ",
+		"price": 110,
+		"discount": 0,
+		"rating": {
+			"rate": 5.0,
+			"count": 65
+		},
+		"categories": ["food", "dairy"],
+		"weight": 0.27,
+		"quantity": 94
+	},
+	{
+		"id": 28,
+		"img": "/products/img-28.jpeg",
+		"title": "Батон с изюмом",
+		"description": "Батон с изюмом 300 г",
+		"price": 60.5,
+		"discount": 0,
+		"rating": {
+			"rate": 4.9,
+			"count": 25
+		},
+		"categories": ["food", "bread"],
+		"weight": 0.3,
+		"quantity": 34
+	},
+	{
+		"id": 29,
+		"img": "/products/img-29.jpeg",
+		"title": "Булочки чесночные",
+		"description": "Булочки чесночные 180 г",
+		"price": 52.5,
+		"discount": 0,
+		"rating": {
+			"rate": 4.9,
+			"count": 2
+		},
+		"categories": ["food", "bread"],
+		"weight": 0.18,
+		"quantity": 43
+	},
+	{
+		"id": 30,
+		"img": "/products/img-30.jpeg",
+		"title": "Хлеб Пикантный",
+		"description": "Хлеб Пикантный 400 г",
+		"price": 55.5,
+		"discount": 0,
+		"rating": {
+			"rate": 4.9,
+			"count": 7
+		},
+		"categories": ["food", "bread"],
+		"weight": 0.4,
+		"quantity": 24
+	},
+	{
+		"id": 31,
+		"img": "/products/img-31.jpeg",
+		"title": "Рулет с грушевым повидлом",
+		"description": "Рулет с грушевым повидлом 160 г",
+		"price": 78,
+		"discount": 0,
+		"rating": {
+			"rate": 4.5,
+			"count": 9
+		},
+		"categories": ["food", "bread"],
+		"weight": 0.16,
+		"quantity": 31
+	},
+	{
+		"id": 32,
+		"img": "/products/img-32.jpeg",
+		"title": "Хлеб Жито в нарезку",
+		"description": "Хлеб Жито в нарезку Северодвинский хлебокомбинат 400 г",
+		"price": 90,
+		"discount": 0,
+		"rating": {
+			"rate": 4.6,
+			"count": 49
+		},
+		"categories": ["food", "bread"],
+		"weight": 0.4,
+		"quantity": 56
+	},
+	{
+		"id": 33,
+		"img": "/products/img-33.jpeg",
+		"title": "Хлеб Добрыня",
+		"description": "Хлеб Добрыня 300 г",
+		"price": 73.5,
+		"discount": 0,
+		"rating": {
+			"rate": 4.2,
+			"count": 27
+		},
+		"categories": ["food", "bread"],
+		"weight": 0.3,
+		"quantity": 45
+	},
+	{
+		"id": 34,
+		"img": "/products/img-34.jpeg",
+		"title": "Хлебцы цельнозерновые пшенично-ржаные",
+		"description": "Хлебцы цельнозерновые Хлебцы Молодцы 100 г пшенично-ржаные",
+		"price": 62,
+		"discount": 0,
+		"rating": {
+			"rate": 4.9,
+			"count": 2
+		},
+		"categories": ["food", "bread", "healthy"],
+		"weight": 0.1,
+		"quantity": 28
+	},
+	{
+		"id": 35,
+		"img": "/products/img-35.jpeg",
+		"title": "Хлебцы Dr.Korner кукурузно-рисовые",
+		"description": "Хлебцы Dr.Korner 100 г кукурузно-рисовые с чиа и льном",
+		"price": 145,
+		"discount": 0,
+		"rating": {
+			"rate": 4.6,
+			"count": 4
+		},
+		"categories": ["food", "bread", "healthy"],
+		"weight": 0.1,
+		"quantity": 36
+	},
+	{
+		"id": 36,
+		"img": "/products/img-36.jpeg",
+		"title": "Хлебец Отруби-микс",
+		"description": "Хлебец Отруби-микс с морковью Хлебный Дом 330 г",
+		"price": 85,
+		"discount": 0,
+		"rating": {
+			"rate": 0,
+			"count": 0
+		},
+		"categories": ["food", "bread", "healthy"],
+		"weight": 0.33,
+		"quantity": 28
+	},
+	{
+		"id": 37,
+		"img": "/products/img-37.jpeg",
+		"title": "Яблоки зеленые",
+		"description": "Яблоки Гренни Смит",
+		"price": 190,
+		"discount": 0,
+		"rating": {
+			"rate": 4.2,
+			"count": 4
+		},
+		"categories": ["food", "fruit", "healthy"],
+		"weight": 1,
+		"quantity": 39
+	},
+	{
+		"id": 38,
+		"img": "/products/img-38.jpeg",
+		"title": "Салат Фриллис в горшочке",
+		"description": "Салат Фриллис в горшочке 1 шт",
+		"price": 140,
+		"discount": 20,
+		"rating": {
+			"rate": 4.4,
+			"count": 2
+		},
+		"categories": ["food", "fruit", "actions", "healthy"],
+		"weight": 0.21,
+		"quantity": 56
+	},
+	{
+		"id": 39,
+		"img": "/products/img-39.jpeg",
+		"title": "Груша Анжу/Пакхам",
+		"description": "Груша Анжу/Пакхам",
+		"price": 200,
+		"discount": 10,
+		"rating": {
+			"rate": 4.3,
+			"count": 5
+		},
+		"categories": ["food", "fruit", "actions", "healthy"],
+		"weight": 1,
+		"quantity": 17
+	},
+	{
+		"id": 40,
+		"img": "/products/img-40.jpeg",
+		"title": "Малина замороженная",
+		"description": "Малина Семья довольна 300 г",
+		"price": 335,
+		"discount": 10,
+		"rating": {
+			"rate": 4.4,
+			"count": 6
+		},
+		"categories": ["food", "fruit", "frozen", "actions", "healthy"],
+		"weight": 0.3,
+		"quantity": 24
+	},
+	{
+		"id": 41,
+		"img": "/products/img-41.jpeg",
+		"title": "Огурцы свежие",
+		"description": "Огурцы Кураж Вологда 400 г",
+		"price": 150,
+		"discount": 0,
+		"rating": {
+			"rate": 4.1,
+			"count": 1
+		},
+		"categories": ["food", "fruit", "healthy"],
+		"weight": 0.4,
+		"quantity": 19
+	},
+	{
+		"id": 42,
+		"img": "/products/img-42.jpeg",
+		"title": "Чеснок фасованый в сетке",
+		"description": "Чеснок фасованый в сетке",
+		"price": 70,
+		"discount": 0,
+		"rating": {
+			"rate": 4.7,
+			"count": 5
+		},
+		"categories": ["food", "fruit", "healthy"],
+		"weight": 0.1,
+		"quantity": 37
+	},
+	{
+		"id": 43,
+		"img": "/products/img-43.jpeg",
+		"title": "Капуста фиолетовая",
+		"description": "Капуста фиолетовая",
+		"price": 160,
+		"discount": 0,
+		"rating": {
+			"rate": 4.4,
+			"count": 7
+		},
+		"categories": ["food", "fruit", "healthy"],
+		"weight": 1,
+		"quantity": 90
+	},
+	{
+		"id": 44,
+		"img": "/products/img-44.jpeg",
+		"title": "Дыня свежая",
+		"description": "Дыня свежая, желтая (Туркменистан)",
+		"price": 180,
+		"discount": 0,
+		"rating": {
+			"rate": 4.9,
+			"count": 1
+		},
+		"categories": ["food", "fruit", "healthy"],
+		"weight": 1,
+		"quantity": 101
+	},
+	{
+		"id": 45,
+		"img": "/products/img-45.jpeg",
+		"title": "Капуста цветная",
+		"description": "Капуста цветная",
+		"price": 300,
+		"discount": 0,
+		"rating": {
+			"rate": 4.9,
+			"count": 1
+		},
+		"categories": ["food", "fruit", "healthy"],
+		"weight": 1,
+		"quantity": 49
+	},
+	{
+		"id": 46,
+		"img": "/products/img-46.jpeg",
+		"title": "Салат Айсберг",
+		"description": "Салат Айсберг",
+		"price": 20,
+		"discount": 0,
+		"rating": {
+			"rate": 4.9,
+			"count": 7
+		},
+		"categories": ["food", "fruit", "healthy"],
+		"weight": 0.1,
+		"quantity": 34
+	},
+	{
+		"id": 47,
+		"img": "/products/img-47.jpeg",
+		"title": "Тесто слоеное бездрожжевое",
+		"description": "Тесто слоеное бездрожжевое Морозко 500 г",
+		"price": 160,
+		"discount": 0,
+		"rating": {
+			"rate": 4.9,
+			"count": 9
+		},
+		"categories": ["food", "frozen"],
+		"weight": 0.5,
+		"quantity": 28
+	},
+	{
+		"id": 48,
+		"img": "/products/img-48.jpeg",
+		"title": "Мороженое стаканчик пломбир Коровка из Кореновки",
+		"description": "Мороженое стаканчик пломбир Коровка из Кореновки 100 г БЗМЖ",
+		"price": 110,
+		"discount": 0,
+		"rating": {
+			"rate": 4.9,
+			"count": 56
+		},
+		"categories": ["food", "frozen", "dairy"],
+		"weight": 0.1,
+		"quantity": 58
+	},
+	{
+		"id": 49,
+		"img": "/products/img-49.jpeg",
+		"title": "Стейк палтуса замороженый",
+		"description": "Стейк палтуса замороженый Borealis 400 г",
+		"price": 830,
+		"discount": 0,
+		"rating": {
+			"rate": 4.6,
+			"count": 34
+		},
+		"categories": ["food", "frozen"],
+		"weight": 1,
+		"quantity": 77
+	},
+	{
+		"id": 50,
+		"img": "/products/img-50.jpeg",
+		"title": "Пицца Жаренки Морозко",
+		"description": "Пицца Жаренки Морозко 300 г",
+		"price": 220,
+		"discount": 0,
+		"rating": {
+			"rate": 0,
+			"count": 0
+		},
+		"categories": ["food", "frozen"],
+		"weight": 0.3,
+		"quantity": 25
+	},
+	{
+		"id": 51,
+		"img": "/products/img-51.jpeg",
+		"title": "Котлеты из индейки",
+		"description": "Котлеты Из индейки Ложкаревъ 400г",
+		"price": 116,
+		"discount": 0,
+		"rating": {
+			"rate": 4.8,
+			"count": 56
+		},
+		"categories": ["food", "frozen", "meat"],
+		"weight": 0.4,
+		"quantity": 24
+	},
+	{
+		"id": 52,
+		"img": "/products/img-52.jpeg",
+		"title": "Брусника замороженная",
+		"description": "Брусника Всегда пожалуйста 300 г",
+		"price": 295,
+		"discount": 0,
+		"rating": {
+			"rate": 4.7,
+			"count": 2
+		},
+		"categories": ["food", "frozen", "fruit", "healthy"],
+		"weight": 0.3,
+		"quantity": 10
+	},
+	{
+		"id": 53,
+		"img": "/products/img-53.jpeg",
+		"title": "Тушка кролика замороженная",
+		"description": "Тушка кролика замороженная",
+		"price": 855,
+		"discount": 0,
+		"rating": {
+			"rate": 4.9,
+			"count": 3
+		},
+		"categories": ["food", "frozen", "meat", "healthy"],
+		"weight": 1,
+		"quantity": 4
+	},
+	{
+		"id": 54,
+		"img": "/products/img-54.jpeg",
+		"title": "Вареники с картофелем и грибами",
+		"description": "Вареники с картофелем и грибами Вологодский мясокомбинат 450 г",
+		"price": 130,
+		"discount": 0,
+		"rating": {
+			"rate": 4.9,
+			"count": 7
+		},
+		"categories": ["food", "frozen", "healthy"],
+		"weight": 0.45,
+		"quantity": 7
+	},
+	{
+		"id": 55,
+		"img": "/products/img-55.jpeg",
+		"title": "Напиток газированный Кола",
+		"description": "Напиток газированный Кола 0,5 л",
+		"price": 40,
+		"discount": 0,
+		"rating": {
+			"rate": 5,
+			"count": 5
+		},
+		"categories": ["food", "drinks", "new"],
+		"weight": 0.5,
+		"quantity": 113
+	},
+	{
+		"id": 56,
+		"img": "/products/img-56.jpeg",
+		"title": "Напиток сокосодержащий",
+		"description": "Напиток сокосодержащий Любимый 0,95 л тропический микс",
+		"price": 120,
+		"discount": 0,
+		"rating": {
+			"rate": 3.6,
+			"count": 65
+		},
+		"categories": ["food", "drinks", "healthy"],
+		"weight": 1,
+		"quantity": 76
+	},
+	{
+		"id": 57,
+		"img": "/products/img-57.jpeg",
+		"title": "Минеральная вода газированная",
+		"description": "Минеральная вода газированная Куртяевская К-1 1,5 л",
+		"price": 56,
+		"discount": 0,
+		"rating": {
+			"rate": 4.6,
+			"count": 6
+		},
+		"categories": ["food", "drinks", "healthy"],
+		"weight": 1.5,
+		"quantity": 56
+	},
+	{
+		"id": 58,
+		"img": "/products/img-58.jpeg",
+		"title": "Напиток чайный Lipton зеленый",
+		"description": "Напиток чайный Lipton зеленый 1,5 л",
+		"price": 56,
+		"discount": 0,
+		"rating": {
+			"rate": 4.9,
+			"count": 8
+		},
+		"categories": ["food", "drinks"],
+		"weight": 1.5,
+		"quantity": 33
+	},
+	{
+		"id": 59,
+		"img": "/products/img-59.jpeg",
+		"title": "Вода питьевая негазированная",
+		"description": "Вода питьевая негазированная Шишкин лес 1 л",
+		"price": 65,
+		"discount": 50,
+		"rating": {
+			"rate": 5,
+			"count": 8
+		},
+		"categories": ["food", "drinks", "actions"],
+		"weight": 1,
+		"quantity": 18
+	},
+	{
+		"id": 60,
+		"img": "/products/img-60.jpeg",
+		"title": "Вода питьевая минеральная газированная №17 Ессентуки",
+		"description": "Вода питьевая минеральная газированная №17 Ессентуки 0,45 л",
+		"price": 120,
+		"discount": 0,
+		"rating": {
+			"rate": 5,
+			"count": 2
+		},
+		"categories": ["food", "drinks", "healthy"],
+		"weight": 0.6,
+		"quantity": 24
+	},
+	{
+		"id": 61,
+		"img": "/products/img-61.jpeg",
+		"title": "Сок гранатовый",
+		"description": "Сок Nar 0,31 л гранатовый",
+		"price": 81.5,
+		"discount": 0,
+		"rating": {
+			"rate": 5,
+			"count": 4
+		},
+		"categories": ["food", "drinks", "healthy"],
+		"weight": 0.5,
+		"quantity": 6
+	},
+	{
+		"id": 62,
+		"img": "/products/img-62.jpeg",
+		"title": "Сок яблочный",
+		"description": "Сок Сады Придонья 1 л яблочный прямого отжима",
+		"price": 115,
+		"discount": 0,
+		"rating": {
+			"rate": 5,
+			"count": 3
+		},
+		"categories": ["food", "drinks", "healthy"],
+		"weight": 1,
+		"quantity": 34
+	},
+	{
+		"id": 63,
+		"img": "/products/img-63.jpeg",
+		"title": "Напиток сокосодержащий апельсин",
+		"description": "Напиток сокосодержащий Палпи Добрый 0,9 л апельсин",
+		"price": 190,
+		"discount": 0,
+		"rating": {
+			"rate": 5,
+			"count": 4
+		},
+		"categories": ["food", "drinks"],
+		"weight": 1,
+		"quantity": 26
+	},
+	{
+		"id": 64,
+		"img": "/products/img-64.jpeg",
+		"title": "Вода питьевая газированная",
+		"description": "Вода питьевая газированная Святой Источник 1 л",
+		"price": 60,
+		"discount": 0,
+		"rating": {
+			"rate": 4.8,
+			"count": 2
+		},
+		"categories": ["food", "drinks"],
+		"weight": 1,
+		"quantity": 45
+	},
+	{
+		"id": 65,
+		"img": "/products/img-65.jpeg",
+		"title": "Детокс-сок облепиха-апельсин-имбирь",
+		"description": "Детокс-сок !deaS 1л облепиха-апельсин-имбирь",
+		"price": 235,
+		"discount": 0,
+		"rating": {
+			"rate": 4.9,
+			"count": 4
+		},
+		"categories": ["food", "drinks", "healthy", "new"],
+		"weight": 1.2,
+		"quantity": 34
+	},
+	{
+		"id": 66,
+		"img": "/products/img-66.jpeg",
+		"title": "Сок апельсиновый",
+		"description": "Сок апельсиновый Rich 1 л",
+		"price": 275,
+		"discount": 0,
+		"rating": {
+			"rate": 5,
+			"count": 8
+		},
+		"categories": ["food", "drinks", "healthy", "new"],
+		"weight": 1.1,
+		"quantity": 41
+	},
+	{
+		"id": 67,
+		"img": "/products/img-67.jpeg",
+		"title": "Конфеты шоколадные",
+		"description": "Конфеты шоколадные Золотая лилия Konti 100 г",
+		"price": 45,
+		"discount": 0,
+		"rating": {
+			"rate": 5,
+			"count": 7
+		},
+		"categories": ["food", "confectionery"],
+		"weight": 0.1,
+		"quantity": 42
+	},
+	{
+		"id": 68,
+		"img": "/products/img-68.jpeg",
+		"title": "Зефир глазированный",
+		"description": "Зефир глазированный с ароматом ванили Вологжанка 100 г",
+		"price": 43.5,
+		"discount": 0,
+		"rating": {
+			"rate": 4.5,
+			"count": 1
+		},
+		"categories": ["food", "confectionery"],
+		"weight": 0.1,
+		"quantity": 12
+	},
+	{
+		"id": 69,
+		"img": "/products/img-69.jpeg",
+		"title": "Печенье сахарное Twix",
+		"description": "Печенье сахарное Twix Xtra 82 г",
+		"price": 80,
+		"discount": 0,
+		"rating": {
+			"rate": 4.8,
+			"count": 6
+		},
+		"categories": ["food", "confectionery"],
+		"weight": 0.082,
+		"quantity": 54
+	},
+	{
+		"id": 70,
+		"img": "/products/img-70.jpeg",
+		"title": "Сушки ванильные",
+		"description": "Сушки Малышка Ванильные Вологжанка 300 г",
+		"price": 44,
+		"discount": 0,
+		"rating": {
+			"rate": 5,
+			"count": 6
+		},
+		"categories": ["food", "confectionery"],
+		"weight": 0.3,
+		"quantity": 51
+	},
+	{
+		"id": 71,
+		"img": "/products/img-71.jpeg",
+		"title": "Жевательная резинка Dirol",
+		"description": "Жевательная резинка Dirol 13,6 г арбузно-дынный коктейль",
+		"price": 30,
+		"discount": 0,
+		"rating": {
+			"rate": 5,
+			"count": 5
+		},
+		"categories": ["food", "confectionery"],
+		"weight": 0.014,
+		"quantity": 345
+	},
+	{
+		"id": 72,
+		"img": "/products/img-72.jpeg",
+		"title": "Карамель Chupa Chups",
+		"description": "Карамель Chupa Chups 12г фруктовая с соком",
+		"price": 13,
+		"discount": 0,
+		"rating": {
+			"rate": 5,
+			"count": 5
+		},
+		"categories": ["food", "confectionery"],
+		"weight": 0.012,
+		"quantity": 445
+	},
+	{
+		"id": 73,
+		"img": "/products/img-73.jpeg",
+		"title": "Конфеты Джек Шоколадные истории Konti",
+		"description": "Конфеты Джек Шоколадные истории Konti",
+		"price": 50,
+		"discount": 0,
+		"rating": {
+			"rate": 5,
+			"count": 3
+		},
+		"categories": ["food", "confectionery"],
+		"weight": 0.1,
+		"quantity": 156
+	},
+	{
+		"id": 74,
+		"img": "/products/img-74.jpeg",
+		"title": "Сухари изюмные",
+		"description": "Сухари Яркая цена 300 г изюмные",
+		"price": 56,
+		"discount": 0,
+		"rating": {
+			"rate": 5,
+			"count": 8
+		},
+		"categories": ["food", "confectionery"],
+		"weight": 0.3,
+		"quantity": 43
+	},
+	{
+		"id": 75,
+		"img": "/products/img-75.jpeg",
+		"title": "Вафли с ароматом шоколада",
+		"description": "Вафли Вологжанка 200 г с ароматом шоколада",
+		"price": 77,
+		"discount": 0,
+		"rating": {
+			"rate": 5,
+			"count": 1
+		},
+		"categories": ["food", "confectionery"],
+		"weight": 0.2,
+		"quantity": 40
+	},
+	{
+		"id": 76,
+		"img": "/products/img-76.jpeg",
+		"title": "Печенье Choco Pie Cacao Lotte",
+		"description": "Печенье Choco Pie Cacao Lotte 12шт Х 28 гр",
+		"price": 240,
+		"discount": 0,
+		"rating": {
+			"rate": 0,
+			"count": 0
+		},
+		"categories": ["food", "confectionery"],
+		"weight": 0.336,
+		"quantity": 18
+	},
+	{
+		"id": 77,
+		"img": "/products/img-77.jpeg",
+		"title": "Кофе растворимый",
+		"description": "Кофе растворимый Nescafe Gold 95 г",
+		"price": 370,
+		"discount": 10,
+		"rating": {
+			"rate": 0,
+			"count": 0
+		},
+		"categories": ["food", "tea-coffee", "actions"],
+		"weight": 0.14,
+		"quantity": 57
+	},
+	{
+		"id": 78,
+		"img": "/products/img-78.jpeg",
+		"title": "Чай черный",
+		"description": "Чай черный Greenfield Golden Ceylon 100 пак",
+		"price": 468,
+		"discount": 0,
+		"rating": {
+			"rate": 0,
+			"count": 0
+		},
+		"categories": ["food", "tea-coffee"],
+		"weight": 0.2,
+		"quantity": 56
+	},
+	{
+		"id": 79,
+		"img": "/products/img-79.jpeg",
+		"title": "Чай черный",
+		"description": "Чай черный Greenfield Golden Ceylon 25 пак",
+		"price": 100,
+		"discount": 5,
+		"rating": {
+			"rate": 0,
+			"count": 0
+		},
+		"categories": ["food", "tea-coffee", "actions"],
+		"weight": 0.05,
+		"quantity": 177
+	},
+	{
+		"id": 80,
+		"img": "/products/img-80.jpeg",
+		"title": "Цикорий растворимый",
+		"description": "Цикорий растворимый Экологика 85 г",
+		"price": 360,
+		"discount": 5,
+		"rating": {
+			"rate": 0,
+			"count": 0
+		},
+		"categories": ["food", "tea-coffee", "actions", "healthy"],
+		"weight": 0.12,
+		"quantity": 78
+	},
+	{
+		"id": 81,
+		"img": "/products/img-81.jpeg",
+		"title": "Чай зеленый",
+		"description": "Чай зеленый Принцесса Ява сочный лимон 25 пак",
+		"price": 73.5,
+		"discount": 0,
+		"rating": {
+			"rate": 5,
+			"count": 2
+		},
+		"categories": ["food", "tea-coffee", "healthy"],
+		"weight": 0.05,
+		"quantity": 20
+	},
+	{
+		"id": 82,
+		"img": "/products/img-82.jpeg",
+		"title": "Чай черный",
+		"description": "Чай черный Принцесса Нури 25 пак черная смородина",
+		"price": 82,
+		"discount": 0,
+		"rating": {
+			"rate": 0,
+			"count": 0
+		},
+		"categories": ["food", "tea-coffee"],
+		"weight": 0.05,
+		"quantity": 32
+	},
+	{
+		"id": 83,
+		"img": "/products/img-83.jpeg",
+		"title": "Чай черный",
+		"description": "Чай черный Ahmad Tea Raspberry Indulgence 25 пак",
+		"price": 210,
+		"discount": 0,
+		"rating": {
+			"rate": 0,
+			"count": 0
+		},
+		"categories": ["food", "tea-coffee"],
+		"weight": 0.05,
+		"quantity": 11
+	},
+	{
+		"id": 84,
+		"img": "/products/img-84.jpeg",
+		"title": "Кофе сублимированный",
+		"description": "Кофе сублимированный Monarch Original 130 г",
+		"price": 500,
+		"discount": 5,
+		"rating": {
+			"rate": 0,
+			"count": 0
+		},
+		"categories": ["food", "tea-coffee", "actions"],
+		"weight": 0.18,
+		"quantity": 56
+	},
+	{
+		"id": 85,
+		"img": "/products/img-85.jpeg",
+		"title": "Кофе в зернах",
+		"description": "Кофе в зернах Lebo extra арабика 1000г",
+		"price": 2500,
+		"discount": 0,
+		"rating": {
+			"rate": 0,
+			"count": 0
+		},
+		"categories": ["food", "tea-coffee", "new"],
+		"weight": 1,
+		"quantity": 22
+	},
+	{
+		"id": 86,
+		"img": "/products/img-86.jpeg",
+		"title": "Чай черный",
+		"description": "Чай черный Sun Tea Hills Ягодный коктейль 20 пирамидок",
+		"price": 70,
+		"discount": 0,
+		"rating": {
+			"rate": 0,
+			"count": 0
+		},
+		"categories": ["food", "tea-coffee"],
+		"weight": 0.036,
+		"quantity": 44
+	},
+	{
+		"id": 87,
+		"img": "/products/img-87.jpeg",
+		"title": "Сахар белый кусковой",
+		"description": "Сахар белый кусковой 500 г",
+		"price": 73,
+		"discount": 0,
+		"rating": {
+			"rate": 5.0,
+			"count": 7
+		},
+		"categories": ["food", "grocery"],
+		"weight": 0.5,
+		"quantity": 344
+	},
+	{
+		"id": 88,
+		"img": "/products/img-88.jpeg",
+		"title": "Соль каменная",
+		"description": "Соль каменная 1 кг",
+		"price": 18,
+		"discount": 0,
+		"rating": {
+			"rate": 5.0,
+			"count": 7
+		},
+		"categories": ["food", "grocery"],
+		"weight": 1,
+		"quantity": 278
+	},
+	{
+		"id": 89,
+		"img": "/products/img-89.jpeg",
+		"title": "Крупа рис круглозерный",
+		"description": "Крупа рис круглозерный Яркая цена 800 г",
+		"price": 60,
+		"discount": 0,
+		"rating": {
+			"rate": 5.0,
+			"count": 7
+		},
+		"categories": ["food", "grocery"],
+		"weight": 0.8,
+		"quantity": 184
+	},
+	{
+		"id": 90,
+		"img": "/products/img-90.jpeg",
+		"title": "Хлопья овсяные Геркулес",
+		"description": "Хлопья овсяные Геркулес Яркая цена 400 г",
+		"price": 19,
+		"discount": 0,
+		"rating": {
+			"rate": 4.2,
+			"count": 7
+		},
+		"categories": ["food", "grocery"],
+		"weight": 0.4,
+		"quantity": 126
+	},
+	{
+		"id": 91,
+		"img": "/products/img-91.jpeg",
+		"title": "Макароны Рожки гладкие",
+		"description": "Макароны Рожки гладкие Яркая цена 400 г",
+		"price": 19,
+		"discount": 0,
+		"rating": {
+			"rate": 4.4,
+			"count": 6
+		},
+		"categories": ["food", "grocery"],
+		"weight": 0.4,
+		"quantity": 93
+	},
+	{
+		"id": 92,
+		"img": "/products/img-92.jpeg",
+		"title": "Хлопья овсяные",
+		"description": "Хлопья овсяные №2 Ясно солнышко 500 г",
+		"price": 100,
+		"discount": 0,
+		"rating": {
+			"rate": 4.9,
+			"count": 87
+		},
+		"categories": ["food", "grocery"],
+		"weight": 0.5,
+		"quantity": 166
+	},
+	{
+		"id": 93,
+		"img": "/products/img-93.jpeg",
+		"title": "Макароны Перья гладкие",
+		"description": "Макароны Перья гладкие Яркая цена 400 г",
+		"price": 19,
+		"discount": 0,
+		"rating": {
+			"rate": 4.1,
+			"count": 11
+		},
+		"categories": ["food", "grocery"],
+		"weight": 0.4,
+		"quantity": 34
+	},
+	{
+		"id": 94,
+		"img": "/products/img-94.jpeg",
+		"title": "Макароны Улитки",
+		"description": "Макароны Улитки Makfa 400 гр",
+		"price": 70,
+		"discount": 0,
+		"rating": {
+			"rate": 4.7,
+			"count": 17
+		},
+		"categories": ["food", "grocery"],
+		"weight": 0.4,
+		"quantity": 27
+	},
+	{
+		"id": 95,
+		"img": "/products/img-95.jpeg",
+		"title": "Крупа греча ядрица",
+		"description": "Крупа греча ядрица Сытый боярин 800 г",
+		"price": 70,
+		"discount": 0,
+		"rating": {
+			"rate": 4.5,
+			"count": 13
+		},
+		"categories": ["food", "grocery"],
+		"weight": 0.8,
+		"quantity": 19
+	},
+	{
+		"id": 96,
+		"img": "/products/img-96.jpeg",
+		"title": "Мука пшеничная",
+		"description": "Мука пшеничная высший сорт Makfa 2 кг",
+		"price": 130,
+		"discount": 0,
+		"rating": {
+			"rate": 4.6,
+			"count": 16
+		},
+		"categories": ["food", "grocery"],
+		"weight": 2,
+		"quantity": 68
+	},
+	{
+		"id": 97,
+		"img": "/products/img-97.jpeg",
+		"title": "Крупа пшено шлифованное",
+		"description": "Крупа пшено шлифованное Яркая цена 800 г",
+		"price": 32,
+		"discount": 0,
+		"rating": {
+			"rate": 4.2,
+			"count": 16
+		},
+		"categories": ["food", "grocery"],
+		"weight": 0.8,
+		"quantity": 62
+	},
+	{
+		"id": 98,
+		"img": "/products/img-98.jpeg",
+		"title": "Корм для кошек",
+		"description": "Корм для кошек Kitekat 85г с говядиной в соусе",
+		"price": 25,
+		"discount": 10,
+		"rating": {
+			"rate": 4.6,
+			"count": 18
+		},
+		"categories": ["zoo", "actions"],
+		"weight": 0.085,
+		"quantity": 654
+	},
+	{
+		"id": 99,
+		"img": "/products/img-99.jpeg",
+		"title": "Корм для кошек",
+		"description": "Корм для кошек Whiskas 75 г паштет с уткой",
+		"price": 26,
+		"discount": 0,
+		"rating": {
+			"rate": 4.9,
+			"count": 12
+		},
+		"categories": ["zoo"],
+		"weight": 0.075,
+		"quantity": 324
+	},
+	{
+		"id": 100,
+		"img": "/products/img-100.jpeg",
+		"title": "Пеленки для домашних животных",
+		"description": "Пеленки Joyful Pets для домашних животных с суперабсорбентом 60х40 см 10шт",
+		"price": 120,
+		"discount": 0,
+		"rating": {
+			"rate": 4.6,
+			"count": 14
+		},
+		"categories": ["zoo"],
+		"weight": 0.15,
+		"quantity": 64
+	},
+	{
+		"id": 101,
+		"img": "/products/img-101.jpeg",
+		"title": "Корм для кошек",
+		"description": "Корм для стерилизованных кошек Perfect Fit 75г кролик в соусе",
+		"price": 29,
+		"discount": 0,
+		"rating": {
+			"rate": 4.9,
+			"count": 32
+		},
+		"categories": ["zoo"],
+		"weight": 0.075,
+		"quantity": 74
+	},
+	{
+		"id": 102,
+		"img": "/products/img-102.jpeg",
+		"title": "Наполнитель для кошачьих туалетов",
+		"description": "Наполнитель комкующийся для кошачьих туалетов Мяудодыр 5 л",
+		"price": 135,
+		"discount": 0,
+		"rating": {
+			"rate": 4.6,
+			"count": 1
+		},
+		"categories": ["zoo"],
+		"weight": 7.5,
+		"quantity": 26
+	},
+	{
+		"id": 103,
+		"img": "/products/img-103.jpeg",
+		"title": "Корм для собак",
+		"description": "Корм для активных собак Purina One Мини 85 г с уткой, пасторй и зеленой фасолью",
+		"price": 37,
+		"discount": 0,
+		"rating": {
+			"rate": 4.1,
+			"count": 4
+		},
+		"categories": ["zoo"],
+		"weight": 0.085,
+		"quantity": 65
+	},
+	{
+		"id": 104,
+		"img": "/products/img-104.jpeg",
+		"title": "Набор игрушек для животных",
+		"description": "Набор игрушек для животных Мурочкин микс 4 шт",
+		"price": 120,
+		"discount": 0,
+		"rating": {
+			"rate": 4.5,
+			"count": 9
+		},
+		"categories": ["zoo"],
+		"weight": 0.2,
+		"quantity": 88
+	},
+	{
+		"id": 105,
+		"img": "/products/img-105.jpeg",
+		"title": "Корм для собак",
+		"description": "Корм для собак Pedigree для взрослых собак крупных пород говядина 13 кг",
+		"price": 3299,
+		"discount": 0,
+		"rating": {
+			"rate": 4.6,
+			"count": 2
+		},
+		"categories": ["zoo"],
+		"weight": 13,
+		"quantity": 76
+	},
+	{
+		"id": 106,
+		"img": "/products/img-106.jpeg",
+		"title": "Корм для собак сухой",
+		"description": "Корм для собак сухой Чаппи (Chappi) 15 кг мясное изобилие",
+		"price": 3599,
+		"discount": 0,
+		"rating": {
+			"rate": 4.3,
+			"count": 29
+		},
+		"categories": ["zoo"],
+		"weight": 15,
+		"quantity": 52
+	},
+	{
+		"id": 107,
+		"img": "/products/img-107.jpeg",
+		"title": "Корм для собак Sensitive Зоогурман 1,2 кг ягненок с рисом",
+		"description": "Корм для собак Sensitive Зоогурман 1,2 кг ягненок с рисом",
+		"price": 550,
+		"discount": 0,
+		"rating": {
+			"rate": 4.9,
+			"count": 2
+		},
+		"categories": ["zoo"],
+		"weight": 1.2,
+		"quantity": 23
+	},
+	{
+		"id": 108,
+		"img": "/products/img-108.jpeg",
+		"title": "Творог детский",
+		"description": "Творог детский Агуша 3,9% 100г яблоко банан БЗМЖ",
+		"price": 44,
+		"discount": 0,
+		"rating": {
+			"rate": 4.2,
+			"count": 2
+		},
+		"categories": ["kids"],
+		"weight": 0.1,
+		"quantity": 65
+	},
+	{
+		"id": 109,
+		"img": "/products/img-109.jpeg",
+		"title": "Сок детский",
+		"description": "Сок детский ФрутоНяня 0,2 л яблоко",
+		"price": 38,
+		"discount": 0,
+		"rating": {
+			"rate": 4.8,
+			"count": 3
+		},
+		"categories": ["kids"],
+		"weight": 0.2,
+		"quantity": 166
+	},
+	{
+		"id": 110,
+		"img": "/products/img-110.jpeg",
+		"title": "Подгузники-трусики",
+		"description": "Подгузники-трусики Joonies Premium Soft 12-17 кг 38 шт",
+		"price": 1100,
+		"discount": 0,
+		"rating": {
+			"rate": 4.3,
+			"count": 22
+		},
+		"categories": ["kids"],
+		"weight": 1245,
+		"quantity": 63
+	},
+	{
+		"id": 111,
+		"img": "/products/img-111.jpeg",
+		"title": "Вода питьевая детская",
+		"description": "Вода питьевая детская ФрутоНяня 330 мл",
+		"price": 34,
+		"discount": 0,
+		"rating": {
+			"rate": 4.7,
+			"count": 211
+		},
+		"categories": ["kids"],
+		"weight": 0.33,
+		"quantity": 81
+	},
+	{
+		"id": 112,
+		"img": "/products/img-112.jpeg",
+		"title": "Порошок стиральный детский",
+		"description": "Порошок стиральный детский Ушастый нянь 400 г",
+		"price": 98,
+		"discount": 0,
+		"rating": {
+			"rate": 4.1,
+			"count": 45
+		},
+		"categories": ["kids"],
+		"weight": 0.4,
+		"quantity": 84
+	},
+	{
+		"id": 113,
+		"img": "/products/img-113.jpeg",
+		"title": "Пюре детское овощи",
+		"description": "Пюре детское ФрутоНяня 100 г говядина овощи",
+		"price": 89,
+		"discount": 0,
+		"rating": {
+			"rate": 4.6,
+			"count": 22
+		},
+		"categories": ["kids"],
+		"weight": 0.15,
+		"quantity": 76
+	},
+	{
+		"id": 114,
+		"img": "/products/img-114.jpeg",
+		"title": "Сок детский",
+		"description": "Сок детский Сады Придонья 125 мл яблоко прямого отжима",
+		"price": 19,
+		"discount": 0,
+		"rating": {
+			"rate": 4.7,
+			"count": 8
+		},
+		"categories": ["kids"],
+		"weight": 0.125,
+		"quantity": 632
+	},
+	{
+		"id": 115,
+		"img": "/products/img-115.jpeg",
+		"title": "Печенье детское",
+		"description": "Печенье детское Бегемотик Бонди 180 гр обогащенное железом",
+		"price": 99,
+		"discount": 0,
+		"rating": {
+			"rate": 4.2,
+			"count": 6
+		},
+		"categories": ["kids"],
+		"weight": 0.2,
+		"quantity": 201
+	},
+	{
+		"id": 116,
+		"img": "/products/img-116.jpeg",
+		"title": "Паста зубная детская",
+		"description": "Паста зубная Splat Juicy с фтором арбуз детская 55 мл",
+		"price": 240,
+		"discount": 0,
+		"rating": {
+			"rate": 3.5,
+			"count": 86
+		},
+		"categories": ["kids"],
+		"weight": 0.1,
+		"quantity": 39
+	},
+	{
+		"id": 117,
+		"img": "/products/img-117.jpeg",
+		"title": "Салфетки влажные детские",
+		"description": "Салфетки влажные Pamperino Kids ромашка и витамин Е 15 шт",
+		"price": 25,
+		"discount": 0,
+		"rating": {
+			"rate": 4.5,
+			"count": 65
+		},
+		"categories": ["kids"],
+		"weight": 0.05,
+		"quantity": 676
+	},
+	{
+		"id": 118,
+		"img": "/products/img-118.jpeg",
+		"title": "Спички",
+		"description": "Спички домашние блок",
+		"price": 30,
+		"discount": 15,
+		"rating": {
+			"rate": 0,
+			"count": 0
+		},
+		"categories": ["non-food", "actions"],
+		"weight": 0.1,
+		"quantity": 3467
+	},
+	{
+		"id": 119,
+		"img": "/products/img-119.jpeg",
+		"title": "Батарейка АА",
+		"description": "Батарейка GP Super Alkaline LR6 15А-CR4 АА 4шт",
+		"price": 260,
+		"discount": 15,
+		"rating": {
+			"rate": 4.5,
+			"count": 4
+		},
+		"categories": ["non-food", "actions"],
+		"weight": 0.2,
+		"quantity": 332
+	},
+	{
+		"id": 120,
+		"img": "/products/img-120.jpeg",
+		"title": "Вилки одноразовые",
+		"description": "Вилки одноразовые Яркая цена 50шт",
+		"price": 90.5,
+		"discount": 0,
+		"rating": {
+			"rate": 4.5,
+			"count": 35
+		},
+		"categories": ["non-food"],
+		"weight": 0.1,
+		"quantity": 332
+	},
+	{
+		"id": 121,
+		"img": "/products/img-121.jpeg",
+		"title": "Чашка кофейная одноразовая",
+		"description": "Чашка кофейная одноразовая Яркая цена 200 мл 6шт",
+		"price": 25,
+		"discount": 0,
+		"rating": {
+			"rate": 4.9,
+			"count": 3
+		},
+		"categories": ["non-food"],
+		"weight": 0.1,
+		"quantity": 155
+	},
+	{
+		"id": 122,
+		"img": "/products/img-122.jpeg",
+		"title": "Фольга алюминиевая",
+		"description": "Фольга алюминиевая Paterra 44 см х 10м",
+		"price": 250,
+		"discount": 0,
+		"rating": {
+			"rate": 4.5,
+			"count": 8
+		},
+		"categories": ["non-food"],
+		"weight": 0.2,
+		"quantity": 85
+	},
+	{
+		"id": 123,
+		"img": "/products/img-123.jpeg",
+		"title": "Мыльница дорожная",
+		"description": "Мыльница дорожная",
+		"price": 48.5,
+		"discount": 0,
+		"rating": {
+			"rate": 0,
+			"count": 0
+		},
+		"categories": ["non-food"],
+		"weight": 0.1,
+		"quantity": 25
+	},
+	{
+		"id": 124,
+		"img": "/products/img-124.jpeg",
+		"title": "Воронка",
+		"description": "Воронка средняя Полимербыт",
+		"price": 45,
+		"discount": 0,
+		"rating": {
+			"rate": 0,
+			"count": 0
+		},
+		"categories": ["non-food"],
+		"weight": 0.1,
+		"quantity": 10
+	},
+	{
+		"id": 125,
+		"img": "/products/img-125.jpeg",
+		"title": "Контейнер",
+		"description": "Контейнер Butterfly Полимербыт 0,75 л",
+		"price": 240,
+		"discount": 0,
+		"rating": {
+			"rate": 1,
+			"count": 1
+		},
+		"categories": ["non-food"],
+		"weight": 0.2,
+		"quantity": 11
+	},
+	{
+		"id": 126,
+		"img": "/products/img-126.jpeg",
+		"title": "Стакан стекольный",
+		"description": "Стакан Ода Опытный стекольный завод 250 мл",
+		"price": 43.5,
+		"discount": 0,
+		"rating": {
+			"rate": 5.0,
+			"count": 1
+		},
+		"categories": ["non-food"],
+		"weight": 0.2,
+		"quantity": 44
+	},
+	{
+		"id": 127,
+		"img": "/products/img-127.jpeg",
+		"title": "Кружка стекло",
+		"description": "Кружка стекло 250мл Elica",
+		"price": 90,
+		"discount": 0,
+		"rating": {
+			"rate": 4.0,
+			"count": 13
+		},
+		"categories": ["non-food"],
+		"weight": 0.2,
+		"quantity": 27
 	}
 ]

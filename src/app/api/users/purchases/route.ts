@@ -1,8 +1,7 @@
 import { NextResponse } from 'next/server'
 
-import { getDB } from '@/config/api-routes'
+import { getDB } from '@/config'
 
-export const revalidate = 3600
 export async function GET() {
 	try {
 		const db = await getDB()

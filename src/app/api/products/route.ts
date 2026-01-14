@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 
-import { getDB } from '@/config/api-routes'
+import { getDB } from '@/config'
+
 export const revalidate = 3600
 export const dynamic = 'force-dynamic'
 export async function GET(request: NextRequest) {

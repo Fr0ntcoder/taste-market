@@ -1,5 +1,7 @@
 import { ProductsBlock } from '@/components/common/products'
 
+import { API_URL, APP_URL } from '@/config'
+
 import { IProduct } from '@/types'
 
 export const HomePurchaseProducts = async () => {
@@ -7,22 +9,20 @@ export const HomePurchaseProducts = async () => {
 	const error = null
 
 	try {
-		const res = await fetch(
-			`${process.env.NEXT_PUBLIC_BASE_URL!}/api/users/purchases`
-		)
+		const res = await fetch(API_URL.USERS.PURCHASES)
 		products = await res.json()
 	} catch (error) {
 		error = 'Ошибка при получении ранее купленых продуктов'
 		console.log('Ошибка при получении ранее купленых продуктов', error)
 	}
 
-	if (error) return <div>Ошибка при получении ранее купленых продуктов</div>
+	if (error) return <div>{error}</div>
 
 	return (
 		<ProductsBlock
 			title='Покупали раньше'
 			text='Все покупки'
-			href=''
+			href={APP_URL.USERS.PURCHASES}
 			items={products}
 		/>
 	)

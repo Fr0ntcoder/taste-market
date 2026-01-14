@@ -9,7 +9,7 @@ import { UserInfo } from './user-info'
 
 export const Header = () => {
 	return (
-		<header className='py-4'>
+		<header className='mb-7.5 pt-4'>
 			<Container className='flex items-center justify-between gap-10'>
 				<Logo className='flex-none' />
 				<div className='flex gap-2'>

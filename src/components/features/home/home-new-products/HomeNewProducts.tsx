@@ -1,5 +1,6 @@
 import { ProductsBlock } from '@/components/common/products'
 
+import { API_URL, APP_URL } from '@/config'
 import { IProduct } from '@/types'
 
 export const HomeNewProducts = async () => {
@@ -7,23 +8,21 @@ export const HomeNewProducts = async () => {
 	const error = null
 
 	try {
-		const res = await fetch(
-			`${process.env.NEXT_PUBLIC_BASE_URL!}/api/products?category=new`
-		)
+		const res = await fetch(API_URL.PRODUCTS.CATEGORY('new'))
 		products = await res.json()
 	} catch (error) {
 		error = 'Ошибка получения новых продуктов'
 		console.log('Ошибка ', error)
 	}
 
-	if (error) return <div>Ошибка получения новых продуктов</div>
+	if (error) return <div>{error}</div>
 
 	return (
 		<ProductsBlock
 			title='Новинки'
 			text='Все новинки'
-			href=''
-			items={products}
+			href={APP_URL.PRODUCTS.NEW}
+			items={products.slice(0, 4)}
 		/>
 	)
 }

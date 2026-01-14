@@ -5,8 +5,12 @@ export interface IProduct {
 	img: string
 	price: number
 	discount: number
-	rating: number
+	rating: {
+		rate: number
+		count: number
+	}
 	categories?: string[]
 	weight?: string
 	volume?: string
+	quantity?: number
 }
