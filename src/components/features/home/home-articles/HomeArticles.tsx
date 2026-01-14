@@ -3,20 +3,11 @@ import Link from 'next/link'
 
 import { ArticleCard } from '@/components/common/articles'
 
-import { API_URL, APP_URL } from '@/config'
-import { IArticle } from '@/types'
+import { APP_URL } from '@/config'
+import { fetchArticles } from '@/services/articles'
 
 export const HomeArticles = async () => {
-	let articles: IArticle[] = []
-	const error = null
-
-	try {
-		const res = await fetch(API_URL.ARTICLES.HOME)
-		articles = await res.json()
-	} catch (error) {
-		error = 'Ошибка получения статей'
-		console.log('Ошибка получения статей', error)
-	}
+	const { articles, error } = await fetchArticles()
 
 	if (error) return <div>{error}</div>
 

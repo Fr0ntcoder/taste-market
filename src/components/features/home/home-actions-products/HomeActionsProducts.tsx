@@ -1,22 +1,13 @@
 import { ProductsBlock } from '@/components/common/products'
 
-import { API_URL, APP_URL } from '@/config'
-import { IProduct } from '@/types'
+import { APP_URL } from '@/config'
+import { fetchProductsByCategory } from '@/services/products'
 
 export const HomeActionsProducts = async () => {
-	let products: IProduct[] = []
-	const error = null
-
-	try {
-		const res = await fetch(API_URL.PRODUCTS.CATEGORY('actions'))
-		products = await res.json()
-	} catch (error) {
-		error = 'Ошибка получения акционных продуктов'
-		console.log('Ошибка получения продуктов', error)
-	}
+	const { error, products } = await fetchProductsByCategory('actions')
 
 	if (error) return <div>{error}</div>
-
+	if (!products) return <div>Загрузка...</div>
 	return (
 		<ProductsBlock
 			title='Акции'
