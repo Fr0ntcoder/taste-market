@@ -22,5 +22,21 @@
 		"text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum illo quidem ipsam, enim quisquam ea eius doloribus minima suscipit, atque tempore ad! Asperiores rerum laudantium placeat totam velit, exercitationem delectus! Neque quas id sequi perferendis optio cumque? Consequatur voluptas fugit ipsa magni iusto ex neque minus nemo ipsam, obcaecati eligendi, maiores, in sapiente ab sint sunt recusandae libero nam ducimus.Quibusdam repudiandae ipsam possimus voluptate dolores atque. Illum, beatae assumenda corporis alias tempora quas ratione cum aperiam voluptatibus blanditiis pariatur vero eum, eos minima et exercitationem enim?",
 		"img": "/articles/article-img3.jpg",
 		"createdAt": "2025-07-10"
+	},
+	{
+		"id": 4,
+		"title": "Full-stack разработка в 2025: Какой стек технологий выбрать?",
+		"description": "Если вы хотите узнать, какие связки технологий наиболее популярны в 2025 и что стоит доучить, чтобы стать full-stack разработчиком, эта статья вам поможет!",
+		"text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum illo quidem ipsam, enim quisquam ea eius doloribus minima suscipit, atque tempore ad! Asperiores rerum laudantium placeat totam velit, exercitationem delectus! Neque quas id sequi perferendis optio cumque? Consequatur voluptas fugit ipsa magni iusto ex neque minus nemo ipsam, obcaecati eligendi, maiores, in sapiente ab sint sunt recusandae libero nam ducimus.Quibusdam repudiandae ipsam possimus voluptate dolores atque. Illum, beatae assumenda corporis alias tempora quas ratione cum aperiam voluptatibus blanditiis pariatur vero eum, eos minima et exercitationem enim?",
+		"img": "/articles/article-img3.jpg",
+		"createdAt": "2025-07-10"
+	},
+	{
+		"id": 5,
+		"title": "Full-stack разработка в 2025: Какой стек технологий выбрать?",
+		"description": "Если вы хотите узнать, какие связки технологий наиболее популярны в 2025 и что стоит доучить, чтобы стать full-stack разработчиком, эта статья вам поможет!",
+		"text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum illo quidem ipsam, enim quisquam ea eius doloribus minima suscipit, atque tempore ad! Asperiores rerum laudantium placeat totam velit, exercitationem delectus! Neque quas id sequi perferendis optio cumque? Consequatur voluptas fugit ipsa magni iusto ex neque minus nemo ipsam, obcaecati eligendi, maiores, in sapiente ab sint sunt recusandae libero nam ducimus.Quibusdam repudiandae ipsam possimus voluptate dolores atque. Illum, beatae assumenda corporis alias tempora quas ratione cum aperiam voluptatibus blanditiis pariatur vero eum, eos minima et exercitationem enim?",
+		"img": "/articles/article-img3.jpg",
+		"createdAt": "2025-07-10"
 	}
 ]

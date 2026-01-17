@@ -20,7 +20,7 @@ export const HomeArticles = async () => {
 				</Link>
 			</div>
 			<div className='grid grid-cols-3 gap-5'>
-				{articles.map(article => (
+				{articles.slice(0, 3).map(article => (
 					<ArticleCard {...article} key={article._id} />
 				))}
 			</div>

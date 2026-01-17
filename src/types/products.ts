@@ -14,3 +14,8 @@ export interface IProduct {
 	volume?: string
 	quantity?: number
 }
+
+export interface IProductsSearchParams {
+	page?: string
+	perPage?: string
+}

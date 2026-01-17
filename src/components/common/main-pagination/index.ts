@@ -1,0 +1,1 @@
+export { MainPagination } from './MainPagination'

@@ -1,2 +1,2 @@
+export { fetchPaginatedProducts } from './fetchPaginatedProducts'
 export { fetchProductsByCategory } from './fetchProductsByCategory'
-export { fetchProductsByPurchases } from './fetchProductsByPurchases'

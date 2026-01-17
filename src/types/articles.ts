@@ -6,3 +6,8 @@ export interface IArticle {
 	img: string
 	createdAt: string
 }
+
+export interface IArticlesSearchParams {
+	page?: string
+	perPage?: string
+}

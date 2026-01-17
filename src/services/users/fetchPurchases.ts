@@ -1,7 +1,7 @@
 import { API_URL } from '@/config'
 import { IProduct } from '@/types'
 
-export const fetchProductsByPurchases = async (): Promise<{
+export const fetchPurchases = async (): Promise<{
 	products: IProduct[]
 	error: null | string
 }> => {

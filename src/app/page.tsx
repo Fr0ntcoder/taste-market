@@ -7,6 +7,6 @@ export const metadata: Metadata = {
 	description: ''
 }
 
-export default function Page() {
+export default async function Page() {
 	return <Home />
 }
