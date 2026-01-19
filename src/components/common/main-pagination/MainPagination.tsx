@@ -61,7 +61,7 @@ export const MainPagination = ({
 						tabIndex={currentPage > 1 ? -1 : 0}
 						aria-label='Предыдущая страница'
 						onClick={onHandlePreviousPage}
-						variant={currentPage > 1 ? 'default' : 'disabled'}
+						variant='ghost'
 					>
 						<ChevronLeft />
 					</Button>
@@ -83,7 +83,7 @@ export const MainPagination = ({
 						tabIndex={currentPage >= maxPages ? -1 : 0}
 						aria-label='Следуюшая страниц'
 						onClick={onHandleNextPage}
-						variant={currentPage < maxPages ? 'default' : 'disabled'}
+						variant='ghost'
 						disabled={currentPage > maxPages}
 					>
 						<ChevronRight />

@@ -15,5 +15,5 @@ export default async function NewPage({
 }) {
 	const params = await searchParams
 
-	return <ProductsNew params={params} />
+	return <ProductsNew searchQuery={params} />
 }
