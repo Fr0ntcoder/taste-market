@@ -1,4 +1,7 @@
 import { Metadata } from 'next'
+import { Suspense } from 'react'
+
+import { Container, Loader } from '@/components/ui'
 
 import { Articles } from '@/components/features/articles'
 
@@ -16,5 +19,12 @@ export default async function ArticlesPage({
 }) {
 	const params = await searchParams
 
-	return <Articles searchQuery={params} />
+	return (
+		<Container>
+			<h2 className='mb-5 text-2xl font-bold'>Все статьи</h2>
+			<Suspense fallback={<Loader text='Загрузка статей' />}>
+				<Articles searchQuery={params} />
+			</Suspense>
+		</Container>
+	)
 }

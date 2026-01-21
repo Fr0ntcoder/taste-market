@@ -18,7 +18,8 @@ const PATH_LABEL_MAP: Record<string, string> = {
 	new: 'Все новинки',
 	users: 'Пользователи',
 	purchases: 'Все покупки',
-	articles: 'Все статьи'
+	articles: 'Все статьи',
+	catalog: 'Каталог'
 }
 export const BreadcrumbBlock = () => {
 	const path = usePathname()

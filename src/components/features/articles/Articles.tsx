@@ -1,9 +1,7 @@
-import { Container } from '@/components/ui'
-
 import { ArticleCard } from '@/components/common/articles'
 import { MainPagination } from '@/components/common/main-pagination'
 
-import { APP_URL } from '@/config'
+import { APP_ROUTES_URL } from '@/config'
 import { fetchPaginatedArticles } from '@/services/articles/'
 import { IArticlesSearchParams } from '@/types'
 
@@ -18,8 +16,7 @@ export const Articles = async ({ searchQuery }: Props) => {
 	if (error) return <div>{error}</div>
 
 	return (
-		<Container>
-			<h2 className='mb-5 text-2xl font-bold'>Все статьи</h2>
+		<>
 			<div className='mb-10 grid grid-cols-3 gap-7.5'>
 				{articles.map(article => (
 					<ArticleCard {...article} key={article._id} />
@@ -27,12 +24,12 @@ export const Articles = async ({ searchQuery }: Props) => {
 			</div>
 			{total > Number(perPage) && (
 				<MainPagination
-					basePath={APP_URL.ARTICLES.HOME}
+					basePath={APP_ROUTES_URL.ARTICLES}
 					totalItems={total}
 					perPage={perPage}
 					currentPage={currentPage}
 				/>
 			)}
-		</Container>
+		</>
 	)
 }

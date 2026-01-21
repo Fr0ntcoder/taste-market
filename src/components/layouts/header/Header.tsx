@@ -9,7 +9,7 @@ import { UserInfo } from './user-info'
 
 export const Header = () => {
 	return (
-		<header className='mb-10 pt-4'>
+		<header className='relative mb-10 pt-4'>
 			<Container className='flex items-center justify-between gap-10'>
 				<Logo className='flex-none' />
 				<div className='flex gap-2'>

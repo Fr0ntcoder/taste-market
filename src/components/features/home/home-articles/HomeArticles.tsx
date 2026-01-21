@@ -3,8 +3,8 @@ import Link from 'next/link'
 
 import { ArticleCard } from '@/components/common/articles'
 
-import { APP_URL } from '@/config'
 import { fetchArticles } from '@/services/articles'
+import { APP_ROUTES_URL } from '@/config'
 
 export const HomeArticles = async () => {
 	const { articles, error } = await fetchArticles()
@@ -15,7 +15,7 @@ export const HomeArticles = async () => {
 		<div className='flex flex-col gap-7.5'>
 			<div className='flex items-center justify-between'>
 				<h3 className='text-3xl font-bold'>Статьи</h3>
-				<Link href={APP_URL.ARTICLES.HOME} className='flex items-center gap-3'>
+				<Link href={APP_ROUTES_URL.ARTICLES} className='flex items-center gap-3'>
 					Все статьи <ChevronRight size={16} />
 				</Link>
 			</div>

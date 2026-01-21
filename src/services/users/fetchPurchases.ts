@@ -1,4 +1,4 @@
-import { API_URL } from '@/config'
+import { API_SERVER_URL } from '@/config'
 import { IProduct } from '@/types'
 
 export const fetchPurchases = async (): Promise<{
@@ -6,7 +6,7 @@ export const fetchPurchases = async (): Promise<{
 	error: null | string
 }> => {
 	try {
-		const res = await fetch(API_URL.USERS.PURCHASES, {
+		const res = await fetch(API_SERVER_URL.USERS.PURCHASES, {
 			next: {
 				revalidate: 3600
 			}

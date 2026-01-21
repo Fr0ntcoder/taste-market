@@ -1,4 +1,4 @@
-import { API_URL } from '@/config'
+import { API_SERVER_URL } from '@/config'
 import { IArticle } from '@/types'
 
 interface IFetchArticles {
@@ -8,7 +8,7 @@ interface IFetchArticles {
 
 export const fetchArticles = async (): Promise<IFetchArticles> => {
 	try {
-		const res = await fetch(API_URL.ARTICLES.HOME, {
+		const res = await fetch(API_SERVER_URL.ARTICLES, {
 			next: {
 				revalidate: 3600
 			}
@@ -22,5 +22,5 @@ export const fetchArticles = async (): Promise<IFetchArticles> => {
 	} catch (error) {
 		console.log('Ошибка получения статей', error)
 		return { articles: [], error: 'Ошибка получения статей' }
-	}
+	} 
 }

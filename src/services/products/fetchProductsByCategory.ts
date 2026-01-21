@@ -1,4 +1,4 @@
-import { API_URL } from '@/config'
+import { API_SERVER_URL } from '@/config'
 import { IProduct } from '@/types'
 
 interface IFetchProducts {
@@ -10,7 +10,7 @@ export const fetchProductsByCategory = async (
 	category: string
 ): Promise<IFetchProducts> => {
 	try {
-		const res = await fetch(API_URL.PRODUCTS.CATEGORY(category), {
+		const res = await fetch(API_SERVER_URL.PRODUCTS.CATEGORY(category), {
 			next: {
 				revalidate: 3600
 			}

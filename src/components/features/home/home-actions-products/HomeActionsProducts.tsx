@@ -1,6 +1,6 @@
 import { ProductsBlock } from '@/components/common/products'
 
-import { APP_URL } from '@/config'
+import { APP_ROUTES_URL } from '@/config'
 import { fetchProductsByCategory } from '@/services/products'
 
 export const HomeActionsProducts = async () => {
@@ -12,7 +12,7 @@ export const HomeActionsProducts = async () => {
 		<ProductsBlock
 			title='Акции'
 			text='Все акции'
-			href={APP_URL.PRODUCTS.ACTIONS}
+			href={APP_ROUTES_URL.PRODUCTS.ACTIONS}
 			items={products.slice(0, 4)}
 		/>
 	)
