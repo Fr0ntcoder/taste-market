@@ -29,7 +29,7 @@ export const SortableCatalogCard = ({
 				transition: isDragging ? 'none' : transition,
 				opacity: isDragging ? 0.7 : 1
 			}}
-			className={`group relative transition-all duration-150 ease-out hover:scale-[1.02] ${
+			className={`group relative transition-all duration-300 hover:scale-[1.02] ${
 				isDragging
 					? 'z-[9999] scale-102 cursor-grabbing border-2 border-blue-400 shadow-2xl !duration-0'
 					: 'cursor-grab hover:shadow-xl'

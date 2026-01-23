@@ -1,3 +1,6 @@
+import { Suspense } from 'react'
+
+import { Loader } from '@/components/ui'
 import { Container } from '@/components/ui/container'
 
 import { HomeActionsProducts } from './home-actions-products'
@@ -13,12 +16,20 @@ export const Home = () => {
 		<div className='flex flex-col gap-12.5'>
 			<HomeCarousel />
 			<Container className='flex flex-col gap-12.5'>
-				<HomeActionsProducts />
-				<HomeNewProducts />
-				<HomePurchaseProducts />
+				<Suspense fallback={<Loader />}>
+					<HomeActionsProducts />
+				</Suspense>
+				<Suspense fallback={<Loader />}>
+					<HomeNewProducts />
+				</Suspense>
+				<Suspense fallback={<Loader />}>
+					<HomePurchaseProducts />
+				</Suspense>
 				<HomeOffers />
 				<HomeMaps />
-				<HomeArticles />
+				<Suspense fallback={<Loader />}>
+					<HomeArticles />
+				</Suspense>
 			</Container>
 		</div>
 	)

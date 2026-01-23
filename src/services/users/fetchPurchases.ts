@@ -1,23 +1,56 @@
 import { API_SERVER_URL } from '@/config'
 import { IProduct } from '@/types'
 
-export const fetchPurchases = async (): Promise<{
-	products: IProduct[]
-	error: null | string
-}> => {
+interface Props {
+	options: {
+		randomLimit?: number
+		pagination?: { startIndex: number; perPage: number }
+	}
+}
+
+interface PropsReturn {
+	items: IProduct[]
+	totalCount: number
+	error: string | null
+}
+
+export const fetchPurchases = async ({
+	options
+}: Props): Promise<PropsReturn> => {
+	const url = new URL(API_SERVER_URL.USERS.PURCHASES)
+
 	try {
-		const res = await fetch(API_SERVER_URL.USERS.PURCHASES, {
+		if (options?.randomLimit) {
+			url.searchParams.append('randomLimit', options.randomLimit.toString())
+		} else if (options?.pagination) {
+			url.searchParams.append(
+				'startIndex',
+				options.pagination.startIndex.toString()
+			)
+			url.searchParams.append('perPage', options.pagination.perPage.toString())
+		}
+
+		const res = await fetch(url.toString(), {
 			next: {
 				revalidate: 3600
 			}
 		})
-		if (!res.ok) throw new Error('Ошибка получения продуктов')
 
-		const products: IProduct[] = await res.json()
+		if (!res.ok) throw new Error('Ошибка получения ваших покупок')
 
-		return { products, error: null }
+		const data = await res.json()
+
+		return {
+			items: data.products || data,
+			totalCount: data.totalCount,
+			error: null
+		}
 	} catch (error) {
-		console.error('Ошибка загрузки товара', error)
-		return { products: [], error: 'Не удалось загрузить товары' }
+		console.error('Ошибка загрузки покупок', error)
+		return {
+			items: [],
+			totalCount: 0,
+			error: 'Не удалось загрузить покупки'
+		}
 	}
 }

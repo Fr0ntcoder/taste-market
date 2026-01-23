@@ -13,13 +13,18 @@ export const fetchPaginatedArticles = async ({ searchQuery }: Props) => {
 	const perPage = Number(itemsPerPage)
 	const startPage = (currentPage - 1) * perPage
 
-	const { articles, error } = await fetchArticles()
-
-	const result = articles.slice(startPage, startPage + perPage)
+	const { items, totalCount, error } = await fetchArticles({
+		options: {
+			pagination: {
+				startIndex: startPage,
+				perPage
+			}
+		}
+	})
 
 	return {
-		total: articles.length,
-		articles: result,
+		total: totalCount,
+		articles: items,
 		error,
 		startPage,
 		perPage,

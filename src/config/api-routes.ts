@@ -10,12 +10,8 @@ export const getDB = async () => {
 }
 
 export const API_SERVER_URL = {
-	PRODUCTS: {
-		CATEGORY: (category: string) =>
-			`${SERVER_BASE_URL}/products?category=${category}`
-	},
+	PRODUCTS: `${SERVER_BASE_URL}/products`,
 	ARTICLES: `${SERVER_BASE_URL}/articles`,
-
 	USERS: {
 		PURCHASES: `${SERVER_BASE_URL}/users/purchases`
 	}
